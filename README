@@ -1,0 +1,27 @@
+ATEAM design work according to Fimga layout:
+https://www.figma.com/file/JmuaBHhGeCyQ41yIdsF3CE/talent-multi-page-website?node-id=0%3A1&t=u3S1cnmRyayAeAgb-1
+
+Further requremets:
+
+1.	Tinklapį sudaro trys puslapiai (0, 1, 2):
+Home,
+About,  
+Contact us.
+
+2.	Tinklapis turi prisitaikyti prie trijų dydžių ekranų (0, 1, 2):
+Mobile 375px,
+Tablet 768px,
+Desktop 1440px.
+
+3.	Turi veikti visi dizaine nurodyti hover efektai (dizaine active states dalis) (0, 1, 2).
+
+4.	Puslapyje About lankytojas turi matyti informaciją apie kiekvieną darbuotoją, paspaudęs `+` myktuką (0, 1, 2).
+
+5.	Formos validacija (0, 1, 2):
+
+Contact us puslapyje, kai neužpildžius formos laukų `Name`, `Email Address` arba `Message` spaudžiamas Submit mygtukas, turi būti rodomas klaidos pranešimas `This field is required`.
+
+Jeigu `Email Address` neturi atitinkamo, el. paštui būdingo formato, turi būti rodomas klaidos pranešimas `Please use a valid email address`.
+
+Nuoroda į šriftus:
+https://fonts.google.com/specimen/Livvic?query=livv
