@@ -25,4 +25,7 @@ git config --global --list
 
 17. git switch -c [name] - create and switch to new branch
 
+18. git branch -d [name] - delete already merged branch
+19. git branch -D [name] - force delete branch
+
 create file [.gitignore] and add files to it that you want to be ignored
