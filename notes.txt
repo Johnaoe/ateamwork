@@ -16,5 +16,13 @@ git config --global --list
 [bash] history >history.txt
 [bash] git log --oneline --graph --all > gitlog.txt
 
+12. git branch [name]   - kuriam branch
+13. git branch          - patikrinam kokie branch
+14. git checkout [name] - pasiimam sukurta branch
+15. git switch [name]   - pakeisti branch - same as gco
+
+16. git merge [name]    - merge
+
+17. git switch -c [name] - create and switch to new branch
 
 create file [.gitignore] and add files to it that you want to be ignored
