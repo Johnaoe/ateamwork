@@ -13,5 +13,8 @@ git config --global --list
 10. git checkout master
 11. git checkout [branch name] / git switch [name] / HEAD~2
 
+[bash] history >history.txt
+[bash] git log --oneline --graph --all > gitlog.txt
 
-create file .gitignore and add files to ignore
+
+create file [.gitignore] and add files to it that you want to be ignored
