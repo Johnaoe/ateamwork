@@ -1,0 +1,17 @@
+git --version
+git config --global --list
+
+1. git init - su šiuo file seks pasikeitimus.
+2. git status
+3. git add . [or specific folder]
+4. git comit -m "[name]"
+5. git log
+6. git log --oneline
+7. git commit -am "without add"
+8. git --amend -m  
+9. git log author=John
+10. git checkout master
+11. git checkout [branch name] / git switch [name] / HEAD~2
+
+
+create file .gitignore and add files to ignore
