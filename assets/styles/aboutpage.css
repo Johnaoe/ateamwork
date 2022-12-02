@@ -1,1 +1,10 @@
 @import url("/assets/styles/general.css");
+
+/* cia rasom mobile css */
+@media screen and (min-width: 768px) {
+    /* cia rasom tablet css */
+    }
+    
+    @media screen and (min-width: 1440px) {
+    /* cia rasom desktop css */
+    }
