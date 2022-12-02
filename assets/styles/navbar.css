@@ -1,0 +1,220 @@
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: #002529;
+  }
+  header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #014e56;
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-top: 48px;
+    padding-bottom: 30px;
+    min-width: 200px;
+  }
+  .logo {
+    cursor: pointer;
+    width: 126px;
+    height: 32px;
+    left: 24px;
+    top: 48px;
+  }
+  .nav__links li {
+    display: none;
+  }
+  button {
+    display: none;
+  }
+  .ham-menu-icon {
+    cursor: pointer;
+    transition: all 0.3s ease 0;
+    padding-left: 25px;
+  }
+  .cta {
+    margin-left: auto;
+    margin-right: 0;
+  }
+}
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: #002529;
+  }
+  li,
+  a,
+  button {
+    font-family: "League Spartan", sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    background-color: #014e56;
+  }
+  header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-right: 40px;
+    padding-left: 35px;
+    padding-top: 83px;
+    padding-bottom: 60px;
+    background-color: #014e56;
+    min-width: 768px;
+  }
+  .logo {
+    cursor: pointer;
+    width: 157.5px;
+    height: 40px;
+    left: 165px;
+    top: 77px;
+    /* padding-right: 82.5px; */
+  }
+  ul {
+    padding-left: 53.98px;
+    padding-right: 54px;
+    width: 280px;
+  }
+  .nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+  }
+  .nav__links li a {
+    transition: all 0.3 ease 0s;
+  }
+  .nav__links li a:hover {
+    color: #f67e7e;
+  }
+  button {
+    border: 2px solid #ffffff;
+    cursor: pointer;
+    border-radius: 24px;
+    transition: all 0.3s ease 0;
+    width: 153px;
+    height: 48px;
+  }
+  .ham-menu-icon {
+    visibility: hidden;
+  }
+  .cta {
+    margin-left: auto;
+  }
+  button:hover {
+    background-color: #ffffff;
+    color: #014e56;
+  }
+}
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: #002529;
+  }
+  header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-right: 40px;
+    padding-left: 35px;
+    padding-top: 83px;
+    padding-bottom: 60px;
+    background-color: #014e56;
+    min-width: 768px;
+  }
+  .logo {
+    cursor: pointer;
+    width: 157.5px;
+    height: 40px;
+    left: 165px;
+    top: 77px;
+    /* padding-right: 82.5px; */
+  }
+  ul {
+    padding-left: 53.98px;
+    padding-right: 54px;
+    width: 280px;
+  }
+  .nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+  }
+  .nav__links li a {
+    transition: all 0.3 ease 0s;
+  }
+  .nav__links li a:hover {
+    color: #f67e7e;
+  }
+  button {
+    border: 2px solid #ffffff;
+    cursor: pointer;
+    border-radius: 24px;
+    transition: all 0.3s ease 0;
+    width: 153px;
+    height: 48px;
+  }
+  .ham-menu-icon {
+    visibility: hidden;
+  }
+  .cta {
+    margin-left: auto;
+  }
+  button:hover {
+    background-color: #ffffff;
+    color: #014e56;
+  }
+}
+@media only screen and (min-width: 992px) {
+  body {
+    background-color: #002529;
+  }
+  header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 83px;
+    padding-bottom: 60px;
+    background-color: #014e56;
+    min-width: 992px;
+  }
+  .logo {
+    cursor: pointer;
+    width: 157.5px;
+    height: 40px;
+    left: 165px;
+    top: 77px;
+  }
+  ul {
+    /* padding-left: 82.5px; */
+    padding-right: 54px;
+    width: 280px;
+  }
+  .nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+  }
+  .nav__links li a {
+    transition: all 0.3 ease 0s;
+  }
+  .nav__links li a:hover {
+    color: #f67e7e;
+  }
+  button {
+    border: 2px solid #ffffff;
+    cursor: pointer;
+    border-radius: 24px;
+    transition: all 0.3s ease 0;
+    width: 153px;
+    height: 48px;
+  }
+  .ham-menu-icon {
+    visibility: hidden;
+  }
+  .cta {
+    margin-left: auto;
+  }
+  button:hover {
+    background-color: #ffffff;
+    color: #014e56;
+  }
+}

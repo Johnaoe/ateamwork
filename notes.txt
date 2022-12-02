@@ -29,3 +29,13 @@ git config --global --list
 19. git branch -D [name] - force delete branch
 
 create file [.gitignore] and add files to it that you want to be ignored
+
+sukuriam repo, add contributors
+
+20. git clone [shh git repo]
+21. open
+22. git switch -c 'header'
+23. code .
+24. git add .
+25. git commit -m 'headeradded'
+26. git push origin header
