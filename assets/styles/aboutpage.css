@@ -1,10 +1,46 @@
 @import url("/assets/styles/general.css");
 
+
 /* cia rasom mobile css */
+#footerAboutMobile {
+    background-color: #F67E7E;
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    height: 302px;
+    text-align: center;
+    justify-content: center;
+}
+
+#footerAboutMobile p {
+    color: #012F34;
+    font-family: "Livvic";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+}
+
+#footerAboutMobileButton {
+    color: #012F34;
+    background-color: #F67E7E;
+    border: 2px solid #012F34;
+    border-radius: 24px;
+    text-transform: none;
+    font-family: 'Livvic';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    /* position: absolute; */
+}
+
+
 @media screen and (min-width: 768px) {
+
     /* cia rasom tablet css */
-    }
-    
-    @media screen and (min-width: 1440px) {
+
+}
+
+@media screen and (min-width: 1440px) {
     /* cia rasom desktop css */
-    }
+}
