@@ -39,3 +39,15 @@ sukuriam repo, add contributors
 24. git add .
 25. git commit -m 'headeradded'
 26. git push origin header
+
+test footer text
+        
+git clone [repo name]
+git fetch / git pull
+git remote v
+git push origin master
+
+git remote add origin git@github.com:Johnaoe/TASK19.git
+git push -u origin master
+
+merge pull request #1 from johnoae/footer 
