@@ -1,0 +1,101 @@
+/*section 2 mobile start */
+@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+.section2{
+    display: none;
+visibility: hidden;
+}
+@media only screen and (max-width: 600px) {
+    .section2 {
+        display: block;
+        visibility: visible;
+        overflow: hidden;
+        background-color: #012F34;
+        margin-top: 631px;
+        position: relative;
+        min-height: 1073px;
+        min-width: 375px;
+        z-index: 1;
+    }
+
+    .section2 hr {
+        top: 64px;
+        left: 6.4vw;
+        background-color: #F67E7E;
+        border: none;
+        height: 4px;
+        position: absolute;
+        width: 50px;
+
+    }
+
+    .section2 .s2img1 {
+        width: 200px;
+        height: 244px;
+        position: absolute;
+        right: -100px;
+    }
+
+    .section2 h2 {
+        margin-top: 100px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 32px;
+        color: #ffffff;
+        width: 240px;
+        height: 160px;
+        margin-left: 6.4vw;
+    }
+
+    .section2 article {
+        display: grid;
+        position: absolute;
+        top: 316px;
+        width: 87.2%;
+        height: 693px;
+        left: 6.4vw;
+    }
+
+    .section2 article img {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        align-items: center;
+        width: 72px;
+        height: 72px;
+
+
+    }
+
+    .section2 article h {
+        margin-top: 16px;
+        text-align: center;
+        font-family: 'Livvic';
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+
+        color: #F67E7E;
+    }
+
+    .section2 article p {
+        font-family: 'Livvic';
+        text-align: center;
+        height: 75px;
+        width: 100%;
+        margin: 8px 0px 0px;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+    }
+
+    .section2 article .s2img3,
+    .s2img4 {
+        margin-top: 48px;
+    }
+}
+
+/*section 2 mobile end */
