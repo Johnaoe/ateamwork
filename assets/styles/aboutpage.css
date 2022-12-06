@@ -1,10 +1,200 @@
-@import url("/assets/styles/general.css");
 
-/* cia rasom mobile css */
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #014e56;
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-top: 48px;
+    padding-bottom: 30px;
+    min-width: 200px;
+}
+
+.logo {
+    cursor: pointer;
+    width: 126px;
+    height: 32px;
+    left: 24px;
+    top: 48px;
+}
+
+.nav__links li {
+    display: none;
+}
+
+button {
+    display: none;
+}
+
+.ham-menu-icon {
+    cursor: pointer;
+    transition: all 0.3s ease 0;
+    padding-left: 25px;
+}
+
+.cta {
+    margin-left: auto;
+    margin-right: 0;
+}
+}
+
+html {
+    box-sizing: border-box;
+}
+
+#section2AboutMobile {
+    position: relative;
+    background-color: #F67E7E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* position: absolute; */
+    padding-bottom: 83px;
+
+}
+
+#section2AboutMobile p {
+    color: #012F34;
+    font-family: "Livvic";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    padding: 83px 24px 0 24px;
+    white-space: initial;
+    text-align: center;
+
+    /* margin: 83px 24px 24px 0; */
+}
+
+#section2MobileId {
+    color: #012F34;
+    background-color: inherit;
+    border: 2px solid #012F34;
+    border-radius: 24px;
+    text-transform: none;
+    font-family: 'Livvic';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 8px 30px;
+    margin-top: 5px;
+    /* padding-bottom: 83px; */
+    /* justify-content: center; */
+}
+
+.section2Img {
+    max-width: 200px;
+    max-width: 200px;
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+}
+
+
+
+.director-list {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    font-family: "Livvic";
+    gap: 52px;
+}
+
+.director-list h1 {
+    width: 327px;
+    height: 32px;
+    margin: auto;
+    position: absolute;
+    top: 608px;
+    text-align: center;
+    font-size: 32px;
+    line-height: 32px;
+}
+
+.director {
+    width: 327px;
+    height: 253px;
+    background: #012F34;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.director #director-name {
+    color: #79C8C7;
+    width: 279px;
+    height: 28px;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+    text-align: center;
+    position: absolute;
+    top: 115px;
+}
+
+.director #director-position {
+    color: #FFFFFF;
+    width: 279px;
+    height: 25px;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    position: absolute;
+    top: 150px;
+}
+
+.director img {
+    width: 96px;
+    height: 96px;
+    border: 2px solid #C4FFFE;
+    border-radius: 50%;
+    position: absolute;
+    top: 32px;
+    display: block;
+}
+
+.about-section {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.about-section p {
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 26px;
+    padding-left: 24px;
+    padding-right: 24px;
+    text-align: center;
+}
+
+.about-section h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+}
+
+
 @media screen and (min-width: 768px) {
+
     /* cia rasom tablet css */
-    }
-    
-    @media screen and (min-width: 1440px) {
+
+
+
+}
+
+@media screen and (min-width: 1440px) {
     /* cia rasom desktop css */
-    }
+}
