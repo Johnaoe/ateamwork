@@ -1,4 +1,94 @@
 @import url("/assets/styles/general.css");
+/*footer_home mobile start */
+@media only screen and (max-width: 600px) {
+    footer{
+       height: 432px;
+       display: flex;
+       flex-direction:column;
+       position: relative;
+       justify-content: center;
+       align-items: center;
+       background: #002529;
+     
+   
+     }
+     footer .footerlogo{
+       margin-top: 66px;
+       align-items:center;
+       width: 94.5px;
+       height:24px;
+     }
+     footer .footermenu{
+      margin-top:24px;
+       flex-direction: row;
+           flex-wrap: wrap;
+               justify-content: center;
+       list-style: none;
+       display: flex;
+     flex-wrap: wrap;
+   list-style-type: none;
+       text-decoration: none;
+     }
+     footer .footermenu li a:hover{
+       color: #F67E7E;
+     }
+     footer .footermenu li:first-child{
+       padding-right: 24px;
+     }
+     footer .footericons {
+       background: none;
+       margin-top: 40px;
+               flex-direction: row;
+           flex-wrap: wrap;
+               justify-content: center;
+       list-style: none;
+       display: flex;
+     flex-wrap: wrap;
+   list-style-type: none;
+       text-decoration: none;
+     }
+     footer .footericons li:first-child, footer .footericons li:nth-child(2){
+       
+       padding-right: 16px;
+     }
+     footer .footericons li:last-child{
+       margin-top:2.25px;
+     }
+     footer .footericons svg path:hover{
+       
+       fill:#F67E7E;
+   
+     }
+     footer .address{
+       height: 100px;
+       width:327px;
+       margin: 24px 0 0;
+       font-family: 'Livvic';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 15px;
+   line-height: 25px;
+   text-align: center;
+   color: #FFFFFF;
+   mix-blend-mode: normal;
+   opacity: 0.6;
+     }
+     footer p{
+       width: 255px;
+       height: 25px;
+       font-family: 'Livvic';
+       font-style: normal;
+       font-weight: 600;
+       font-size: 15px;
+       line-height: 25px;
+       text-align: center;
+       color: #FFFFFF;
+       mix-blend-mode: normal;
+       opacity: 0.6;
+       margin:16px 0 64px;
+     }
+     /*footer-mobile end*/
+   }
 
 /* cia rasom mobile css */
 @media screen and (min-width: 768px) {
