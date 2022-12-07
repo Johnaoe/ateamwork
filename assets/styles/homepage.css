@@ -42,7 +42,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 24px;
+    padding: 24px 24px 0px 24px;
   }
   .section1_title {
     color: #fff;
@@ -266,7 +266,6 @@ visibility: hidden;
         visibility: visible;
         overflow: hidden;
         background-color: #012F34;
-        margin-top: 631px;
         position: relative;
         min-height: 1073px;
         min-width: 375px;
