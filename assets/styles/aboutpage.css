@@ -1,5 +1,100 @@
-@import url("/assets/styles/general.css");
-/* cia rasom mobile css */
+
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #014e56;
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-top: 48px;
+    padding-bottom: 30px;
+    min-width: 200px;
+}
+
+.logo {
+    cursor: pointer;
+    width: 126px;
+    height: 32px;
+    left: 24px;
+    top: 48px;
+}
+
+.nav__links li {
+    display: none;
+}
+
+button {
+    display: none;
+}
+
+.ham-menu-icon {
+    cursor: pointer;
+    transition: all 0.3s ease 0;
+    padding-left: 25px;
+}
+
+.cta {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+
+html {
+    box-sizing: border-box;
+}
+
+#section2AboutMobile {
+    position: relative;
+    background-color: #F67E7E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* position: absolute; */
+    padding-bottom: 83px;
+
+}
+
+#section2AboutMobile p {
+    color: #012F34;
+    font-family: "Livvic";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    padding: 83px 24px 0 24px;
+    white-space: initial;
+    text-align: center;
+
+    /* margin: 83px 24px 24px 0; */
+}
+
+#section2MobileId {
+    color: #012F34;
+    background-color: inherit;
+    border: 2px solid #012F34;
+    border-radius: 24px;
+    text-transform: none;
+    font-family: 'Livvic';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 8px 30px;
+    margin-top: 5px;
+    /* padding-bottom: 83px; */
+    /* justify-content: center; */
+}
+
+.section2Img {
+    max-width: 200px;
+    max-width: 200px;
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+}
+
+
 
 .director-list {
     display: flex;
@@ -112,6 +207,7 @@
     line-height: 40px;
     text-align: center;
 }
+
 
 .about-section img {
     width: 200px;
@@ -232,8 +328,103 @@
     transition-duration: 0.5s;
 }
 
+/*footer_home mobile start */
+@media only screen and (max-width: 600px) {
+    footer{
+       height: 432px;
+       display: flex;
+       flex-direction:column;
+       position: relative;
+       justify-content: center;
+       align-items: center;
+       background: #002529;
+     
+   
+     }
+     footer .footerlogo{
+       margin-top: 66px;
+       align-items:center;
+       width: 94.5px;
+       height:24px;
+     }
+     footer .footermenu{
+      margin-top:24px;
+       flex-direction: row;
+           flex-wrap: wrap;
+               justify-content: center;
+       list-style: none;
+       display: flex;
+     flex-wrap: wrap;
+   list-style-type: none;
+       text-decoration: none;
+     }
+     footer .footermenu li a:hover{
+       color: #F67E7E;
+     }
+     footer .footermenu li:first-child{
+       padding-right: 24px;
+     }
+     footer .footericons {
+       background: none;
+       margin-top: 40px;
+               flex-direction: row;
+           flex-wrap: wrap;
+               justify-content: center;
+       list-style: none;
+       display: flex;
+     flex-wrap: wrap;
+   list-style-type: none;
+       text-decoration: none;
+     }
+     footer .footericons li:first-child, footer .footericons li:nth-child(2){
+       
+       padding-right: 16px;
+     }
+     footer .footericons li:last-child{
+       margin-top:2.25px;
+     }
+     footer .footericons svg path:hover{
+       
+       fill:#F67E7E;
+   
+     }
+     footer .address{
+       height: 100px;
+       width:327px;
+       margin: 24px 0 0;
+       font-family: 'Livvic';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 15px;
+   line-height: 25px;
+   text-align: center;
+   color: #FFFFFF;
+   mix-blend-mode: normal;
+   opacity: 0.6;
+     }
+     footer p{
+       width: 255px;
+       height: 25px;
+       font-family: 'Livvic';
+       font-style: normal;
+       font-weight: 600;
+       font-size: 15px;
+       line-height: 25px;
+       text-align: center;
+       color: #FFFFFF;
+       mix-blend-mode: normal;
+       opacity: 0.6;
+       margin:16px 0 64px;
+     }
+     /*footer-mobile end*/
+   }
+   
 @media screen and (min-width: 768px) {
+
     /* cia rasom tablet css */
+
+
+
 }
 
 @media screen and (min-width: 1440px) {

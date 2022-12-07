@@ -1,8 +1,9 @@
 @import url("/assets/styles/general.css");
 
+@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
 @media only screen and (max-width: 600px) {
   body {
-    background-color: #002529;
+    background-color: #014E56;
   }
 
   header {
@@ -42,6 +43,40 @@
   .cta {
     margin-left: auto;
     margin-right: 0;
+  }
+  .section1_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 24px 0px 24px;
+  }
+  .section1_title {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Livvic';
+    text-align: center;
+    line-height: 40px;
+    font-style: normal;
+  }
+  .section1_title-talent{
+    color: #F67E7E;
+  }
+  .section1_paragraph {
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 28px;
+    font-weight: 600;
+    font-size: 15px;
+    padding-bottom: 197px;
+  }
+  .bg-pattern-home-2_mobile {
+    position: absolute;
+    bottom: 0px;
+    left: 9px;
   }
 }
 
@@ -430,3 +465,188 @@
     color: #014e56;
   }
 }
+/*section 2 mobile start */
+@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+.section2_home{
+    display: none;
+visibility: hidden;
+}
+@media only screen and (max-width: 600px) {
+    .section2_home {
+        display: block;
+        visibility: visible;
+        overflow: hidden;
+        background-color: #012F34;
+        position: relative;
+        min-height: 1073px;
+        min-width: 375px;
+        z-index: 1;
+    }
+
+    .section2_home hr {
+        top: 64px;
+        left: 6.4vw;
+        background-color: #F67E7E;
+        border: none;
+        height: 4px;
+        position: absolute;
+        width: 50px;
+
+    }
+
+    .section2_home .s2img1 {
+        width: 200px;
+        height: 244px;
+        position: absolute;
+        right: -100px;
+    }
+
+    .section2_home h2 {
+        margin-top: 100px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 32px;
+        color: #ffffff;
+        width: 240px;
+        height: 160px;
+        margin-left: 6.4vw;
+    }
+
+    .section2_home article {
+        display: grid;
+        position: absolute;
+        top: 316px;
+        width: 87.2%;
+        height: 693px;
+        left: 6.4vw;
+    }
+
+    .section2_home article img {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        align-items: center;
+        width: 72px;
+        height: 72px;
+
+
+    }
+
+    .section2_home article h {
+        margin-top: 16px;
+        text-align: center;
+        font-family: 'Livvic';
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+
+        color: #F67E7E;
+    }
+
+    .section2_home article p {
+        font-family: 'Livvic';
+        text-align: center;
+        height: 75px;
+        width: 100%;
+        margin: 8px 0px 0px;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+    }
+
+    .section2_home article .s2img3,
+    .s2img4 {
+        margin-top: 48px;
+    }
+    footer{
+      height: 432px;
+      display: flex;
+      flex-direction:column;
+      position: relative;
+      justify-content: center;
+      align-items: center;
+      background: #002529;
+    }  
+    footer .footerlogo{
+      margin-top: 66px;
+      align-items:center;
+      width: 94.5px;
+      height:24px;
+    }
+    footer .footermenu{
+     margin-top:24px;
+      flex-direction: row;
+          flex-wrap: wrap;
+              justify-content: center;
+      list-style: none;
+      display: flex;
+    flex-wrap: wrap;
+  list-style-type: none;
+      text-decoration: none;
+    }
+    footer .footermenu li a:hover{
+      color: #F67E7E;
+    }
+    footer .footermenu li:first-child{
+      padding-right: 24px;
+    }
+    footer .footericons {
+      background: none;
+      margin-top: 40px;
+              flex-direction: row;
+          flex-wrap: wrap;
+              justify-content: center;
+      list-style: none;
+      display: flex;
+    flex-wrap: wrap;
+  list-style-type: none;
+      text-decoration: none;
+    }
+    footer .footericons li:first-child, footer .footericons li:nth-child(2){
+      
+      padding-right: 16px;
+    }
+    footer .footericons li:last-child{
+      margin-top:2.25px;
+    }
+    footer .footericons svg path:hover{
+      
+      fill:#F67E7E;
+  
+    }
+    footer .address{
+      height: 100px;
+      width:327px;
+      margin: 24px 0 0;
+      font-family: 'Livvic';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+    }
+    footer p{
+      width: 255px;
+      height: 25px;
+      font-family: 'Livvic';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 25px;
+      text-align: center;
+      color: #FFFFFF;
+      mix-blend-mode: normal;
+      opacity: 0.6;
+      margin:16px 0 64px;
+    }
+    /*footer-mobile end*/
+}
+
+/*section 2 mobile end */
