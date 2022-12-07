@@ -10,17 +10,17 @@
     font-family: "Livvic";
     gap: 52px;
     background: #004047;
-    padding-top: 100px;
-    padding-bottom: 120px;
     overflow: hidden;
+    height: 2062px;
 }
 
 .director-list h1 {
     width: 327px;
     height: 32px;
     margin: auto;
-    /* position: absolute;
-    top: 608px; */
+    position: absolute;
+    top: 88px;
+    left: 24px;
     text-align: center;
     font-size: 32px;
     line-height: 32px;
@@ -82,7 +82,7 @@
 .director-list #about-last-img {
     width: 150px;
     position: absolute;
-    top: 1980px;
+    bottom: 0px;
     right: 0px;
 }
 
