@@ -7,31 +7,31 @@
   box-sizing: border-box;
   font-family: "League Spartan", sans-serif;
 }
-h1 {
+.large h1 {
+  font-family: "Livvic";
+  font-style: bold;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 100px;
+  color: #ffffff;
+}
+.small h2 {
+  font-family: "Livvic";
+  font-style: bold;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: px;
+}
+h2 {
   font-family: "Livvic";
   font-style: bold;
   font-weight: 700;
   font-size: 48px;
   line-height: 48px;
-  color: #ffffff;
-}
-h2 {
-  font-family: "Livvic";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 48px;
 }
 h3 {
   font-family: "Livvic";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 28px;
-}
-h4 {
-  font-family: "Livvic";
-  font-style: normal;
+  font-style: bold;
   font-weight: 600;
   font-size: 18px;
   line-height: 28px;
@@ -62,7 +62,6 @@ button {
   font-weight: 600;
   font-size: 18px;
   line-height: 28px;
-  background-color: #014e56;
 }
 .logo {
   cursor: pointer;
@@ -72,6 +71,35 @@ button {
   top: 77px;
 }
 
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.nav__links li a {
+  transition: all 0.3 ease 0s;
+}
+.nav__links li a:hover {
+  color: #f67e7e;
+}
+.cta button {
+  border: 2px solid #ffffff;
+  cursor: pointer;
+  border-radius: 24px;
+  transition: all 0.3s ease 0;
+  width: 153px;
+  height: 48px;
+  background-color: #014e56;
+}
+.cta {
+  margin-left: auto;
+}
+.cta button:hover {
+  background-color: #ffffff;
+  color: #014e56;
+}
+.side_menu__container {
+  display: none;
+}
 @media only screen and (max-width: 600px) {
   .navbar_menu__container {
     display: flex;
@@ -82,7 +110,7 @@ button {
     padding-left: 24px;
     padding-top: 48px;
     padding-bottom: 30px;
-    min-width: 200px;
+    /* min-width: 200px; */
   }
   .logo {
     cursor: pointer;
@@ -91,14 +119,16 @@ button {
     left: 24px;
     top: 48px;
   }
-  .nav__links li, .cta button{
+  .nav__links li,
+  .cta button {
     display: none;
   }
   .ham-menu-icon {
+    display: visible;
     cursor: pointer;
     transition: all 0.3s ease 0;
   }
-  .ham-menu-icon{
+  .ham-menu-icon {
     margin-left: auto;
     margin-right: 0;
   }
@@ -122,7 +152,7 @@ button {
     padding-right: 25.87px;
     padding-left: 212.87px;
   }
-  .menu_close__btn{
+  .menu_close__btn {
     cursor: pointer;
   }
   .side_menu__container ul {
@@ -156,14 +186,25 @@ button {
     background-color: #ffffff;
     color: #2c6269;
   }
+  .bg_side_menu__container {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    display: none;
+  }
+  .side_menu__img {
+    margin-left: 155px;
+    margin-top: 191px;
+  }
   .show-element {
+    display: block;
+  }
+  .view-element {
     display: block;
   }
 }
 @media only screen and (min-width: 600px) {
-  body {
-    background-color: #002529;
-  }
   .navbar_menu__container {
     display: flex;
     justify-content: flex-start;
@@ -175,42 +216,13 @@ button {
     background-color: #014e56;
     min-width: 768px;
   }
-
-  ul {
+  .nav_links__table ul {
     padding-left: 53.98px;
     padding-right: 54px;
     width: 280px;
   }
-  .nav__links li {
-    display: inline-block;
-    padding: 0px 20px;
-  }
-  .nav__links li a {
-    transition: all 0.3 ease 0s;
-  }
-  .nav__links li a:hover {
-    color: #f67e7e;
-  }
-  button {
-    border: 2px solid #ffffff;
-    cursor: pointer;
-    border-radius: 24px;
-    transition: all 0.3s ease 0;
-    width: 153px;
-    height: 48px;
-  }
   .ham-menu-icon {
     visibility: hidden;
-  }
-  .cta {
-    margin-left: auto;
-  }
-  button:hover {
-    background-color: #ffffff;
-    color: #014e56;
-  }
-  .side_menu__container {
-    display: none;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -225,47 +237,16 @@ button {
     background-color: #014e56;
     min-width: 768px;
   }
-  ul {
+  .nav_links__table ul {
     padding-left: 53.98px;
     padding-right: 54px;
     width: 280px;
   }
-  .nav__links li {
-    display: inline-block;
-    padding: 0px 20px;
-  }
-  .nav__links li a {
-    transition: all 0.3 ease 0s;
-  }
-  .nav__links li a:hover {
-    color: #f67e7e;
-  }
-  button {
-    border: 2px solid #ffffff;
-    cursor: pointer;
-    border-radius: 24px;
-    transition: all 0.3s ease 0;
-    width: 153px;
-    height: 48px;
-  }
   .ham-menu-icon {
     visibility: hidden;
   }
-  .cta {
-    margin-left: auto;
-  }
-  button:hover {
-    background-color: #ffffff;
-    color: #014e56;
-  }
-  .side_menu__container {
-    display: none;
-  }
 }
 @media only screen and (min-width: 992px) {
-  body {
-    background-color: #002529;
-  }
   .navbar_menu__container {
     display: flex;
     justify-content: flex-start;
@@ -277,40 +258,16 @@ button {
     background-color: #014e56;
     min-width: 992px;
   }
-  ul {
-    padding-left: 82.5px;
-    padding-right: 54px;
-    width: 330px;
-  }
-  .nav__links li {
-    display: inline-block;
-    padding: 0px 20px;
-  }
-  .nav__links li a {
-    transition: all 0.3 ease 0s;
-  }
-  .nav__links li a:hover {
-    color: #f67e7e;
-  }
-  button {
-    border: 2px solid #ffffff;
-    cursor: pointer;
-    border-radius: 24px;
-    transition: all 0.3s ease 0;
-    width: 153px;
-    height: 48px;
-  }
-  .ham-menu-icon {
-    visibility: hidden;
-  }
   .cta {
     margin-left: auto;
   }
-  button:hover {
-    background-color: #ffffff;
-    color: #014e56;
+  .nav_links__table ul {
+    padding-left: 82.5px;
+    padding-right: 54px;
+    width: 330px;
+    gap: 0;
   }
-  .side_menu__container {
-    display: none;
+  .ham-menu-icon {
+    visibility: hidden;
   }
 }
