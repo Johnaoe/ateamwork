@@ -1,45 +1,4 @@
 
-
-header {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    background-color: #014e56;
-    padding-right: 24px;
-    padding-left: 24px;
-    padding-top: 48px;
-    padding-bottom: 30px;
-    min-width: 200px;
-}
-
-.logo {
-    cursor: pointer;
-    width: 126px;
-    height: 32px;
-    left: 24px;
-    top: 48px;
-}
-
-.nav__links li {
-    display: none;
-}
-
-button {
-    display: none;
-}
-
-.ham-menu-icon {
-    cursor: pointer;
-    transition: all 0.3s ease 0;
-    padding-left: 25px;
-}
-
-.cta {
-    margin-left: auto;
-    margin-right: 0;
-}
-
-
 html {
     box-sizing: border-box;
 }
