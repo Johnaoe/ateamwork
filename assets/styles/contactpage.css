@@ -3,6 +3,10 @@
 
 @media only screen and (max-width: 600px) {
   /* Contact Forms start */
+  .section1_mobile {
+    position: relative;
+    overflow: hidden;
+  }
   .contact-title {
     display: flex;
     /* flex-wrap: wrap; */
