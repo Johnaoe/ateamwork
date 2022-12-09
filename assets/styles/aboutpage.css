@@ -45,6 +45,11 @@ html {
     /* justify-content: center; */
 }
 
+#section2MobileId:hover {
+    background-color: #002529;
+    color: #ffffff;
+    border-color: #002529;
+}
 .section2Img {
     max-width: 200px;
     max-width: 200px;
