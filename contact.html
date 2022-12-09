@@ -70,14 +70,18 @@
       <div class="contact-info_text">How we help drive innovation</div>
     </div>
     <div class="contact-forms-wrapper">
-       <form>
-        <input id="contact-forms-inputs_top" type="text" placeholder="Name" name="Name">
-        <input class="contact-forms-inputs" type="email" placeholder="Email Address">
+       <form class="myForm">
+        <input class="contact-forms-inputs_top" id="input-nameID" type="text" placeholder="Name" name="nameID">
+        <p id="nameID" class="field-required" class="contactsName"></p>
+        <input class="contact-forms-inputs" id="input-emailID" type="email" placeholder="Email Address" onkeyup="validateEmail()">
+        <span id="email-error" class="email-error"></span>
+        <p id="emailID" class="field-required"></p>
         <input class="contact-forms-inputs" type="text" placeholder="Company Name">
         <input class="contact-forms-inputs" type="text" placeholder="Title">
-        <label for="message" class="contact-forms-textarea_label">Message</label>
-        <textarea name="message" id="message" class="contact-forms-inputs-textarea" cols="30" rows="10"></textarea>
-        <input type="submit" value="submit" class="contact-forms-inputs-submit">
+        <label for="message" class="contact-forms-textarea_label" id="labelID">Message</label>
+        <textarea name="message" id="input-messageID" class="contact-forms-inputs-textarea" cols="30" rows="10"></textarea>
+        <p id="messageID" class="field-required"></p>
+        <input type="button" value="submit" onclick="myFunction()" class="contact-forms-inputs-submit">
       </form> 
       <img src="assets/images/background/bg-pattern-contact-2.svg" alt="contact-svg" class="contacts-svg_mobile">
     </div>
