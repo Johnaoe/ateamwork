@@ -126,6 +126,7 @@
     padding-bottom: 17px;
     padding-top: 24px;
     outline: none;
+    overflow: hidden;
   }
   textarea:focus {
     border-bottom: 1px solid #79C8C7;
