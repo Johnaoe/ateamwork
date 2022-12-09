@@ -1,8 +1,10 @@
 @import url("/assets/styles/general.css");
+
 @media only screen and (max-width: 600px) {
   body {
     background-color: #014e56;
   }
+
   .section1_wrapper {
     display: flex;
     flex-direction: column;
@@ -11,6 +13,7 @@
     padding: 24px 24px 0px 24px;
     width: 100%;
   }
+
   .section1_title {
     color: #fff;
     font-size: 40px;
@@ -20,9 +23,11 @@
     line-height: 40px;
     font-style: normal;
   }
+
   .section1_title-talent {
     color: #f67e7e;
   }
+
   .section1_paragraph {
     color: #fff;
     justify-content: center;
@@ -33,28 +38,27 @@
     font-size: 15px;
     padding-bottom: 197px;
   }
+
   .bg-pattern-home-2_mobile {
     position: absolute;
     bottom: 0px;
     left: 9px;
   }
+
   .section1_mobile {
     position: relative;
   }
 }
 
-@media only screen and (min-width: 600px) {
-}
-@media only screen and (min-width: 768px) {
-}
-@media only screen and (min-width: 992px) {
-}
+
 /*section 2 mobile start */
 @import url("https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap");
+
 .section2_home {
   display: none;
   visibility: hidden;
 }
+
 @media only screen and (max-width: 600px) {
   .section2_home {
     display: block;
@@ -143,6 +147,7 @@
   .s2img4 {
     margin-top: 48px;
   }
+
   footer {
     height: 432px;
     display: flex;
@@ -152,12 +157,14 @@
     align-items: center;
     background: #002529;
   }
+
   footer .footerlogo {
     margin-top: 66px;
     align-items: center;
     width: 94.5px;
     height: 24px;
   }
+
   footer .footermenu {
     margin-top: 24px;
     flex-direction: row;
@@ -169,12 +176,15 @@
     list-style-type: none;
     text-decoration: none;
   }
+
   footer .footermenu li a:hover {
     color: #f67e7e;
   }
+
   footer .footermenu li:first-child {
     padding-right: 24px;
   }
+
   footer .footericons {
     background: none;
     margin-top: 40px;
@@ -187,16 +197,20 @@
     list-style-type: none;
     text-decoration: none;
   }
+
   footer .footericons li:first-child,
   footer .footericons li:nth-child(2) {
     padding-right: 16px;
   }
+
   footer .footericons li:last-child {
     margin-top: 2.25px;
   }
+
   footer .footericons svg path:hover {
     fill: #f67e7e;
   }
+
   footer .address {
     height: 100px;
     width: 327px;
@@ -211,6 +225,7 @@
     mix-blend-mode: normal;
     opacity: 0.6;
   }
+
   footer p {
     width: 255px;
     height: 25px;
@@ -225,6 +240,7 @@
     opacity: 0.6;
     margin: 16px 0 64px;
   }
+
   /*footer-mobile end*/
 }
 
@@ -396,3 +412,58 @@
 }
 
 /* SECTION 3 END */
+
+
+/* SECTION CONTACT US BEGGINS */
+
+#section2HomeMobile {
+  position: relative;
+  background-color: #F67E7E;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* position: absolute; */
+  padding-bottom: 83px;
+
+}
+
+#section2HomeMobile p {
+  color: #012F34;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  padding: 83px 24px 0 24px;
+  white-space: initial;
+  text-align: center;
+
+  /* margin: 83px 24px 24px 0; */
+}
+
+#section2HomeId {
+  color: #012F34;
+  background-color: inherit;
+  border: 2px solid #012F34;
+  border-radius: 24px;
+  text-transform: none;
+  font-family: 'Livvic';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  padding: 8px 30px;
+  margin-top: 5px;
+  /* padding-bottom: 83px; */
+  /* justify-content: center; */
+}
+
+.section2HomeImg {
+  max-width: 200px;
+  max-width: 200px;
+  position: absolute;
+  left: 0;
+  bottom: -20px;
+}
+
+/* SECTION CONTACT US ENDS. */
