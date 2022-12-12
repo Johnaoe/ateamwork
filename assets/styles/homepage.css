@@ -465,3 +465,57 @@
 }
 
 /* SECTION CONTACT US ENDS. */
+
+
+/* TABLET START */
+@media screen and (min-width: 768px) {
+  
+  .section1_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 24px 0px 24px;
+    width: 100%;
+    background-color: #014e56;
+  }
+
+  .section1_title {
+    color: #fff;
+    font-size: 64px;
+    font-weight: 700;
+    font-family: "Livvic";
+    text-align: center;
+    line-height: 56px;
+    font-style: normal;
+    text-align: center;
+  }
+
+  .section1_title-talent {
+    color: #f67e7e;
+  }
+
+  .section1_paragraph {
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 28px;
+    font-weight: 600;
+    font-size: 15px;
+    padding-bottom: 197px;
+    width: 457px;
+    /* padding: 0px 155px 197px 155px; */
+  }
+
+  .bg-pattern-home-2_mobile {
+    position: absolute;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 0px;
+  }
+  .section1_mobile {
+    position: relative;
+  }
+}
