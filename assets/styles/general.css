@@ -154,7 +154,7 @@ header .side_menu__container {
     position: absolute;
     width: 255px;
     right: 0px;
-    height: 407vh;
+    height: 480vh;
     top: none;
   }
   header .side_menu_close__container {
@@ -198,7 +198,7 @@ header .side_menu__container {
   }
   header .bg_side_menu__container {
     width: 100%;
-    height: 407vh;
+    height: 480vh;
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
     z-index: 2;
