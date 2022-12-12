@@ -1,7 +1,7 @@
 html {
     box-sizing: border-box;
 }
-
+@media only screen and (max-width:767px){
 #section2AboutMobile {
     position: relative;
     background-color: #F67E7E;
@@ -291,7 +291,7 @@ html {
     fill: #F67E7E;
     transition-duration: 0.5s;
 }
-
+}
 /* SECTION NEWSLETTERS SECTION 2 STARTS */
 
 #aboutsection2 {
@@ -473,11 +473,40 @@ html {
     /*footer-mobile end*/
 }
 
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
 
     /* cia rasom tablet css */
+    #about-section {
+        background: #014E56;
+        overflow: hidden;
+        position: relative;
+    }
 
+    .about-section #about-section-img {
+        width: 200px;
+        position: absolute;
+        right: -100px;
+        bottom: 0;
+        
+    }
 
+    .about-section p {
+        color: white;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 28px;
+        text-align: center;
+        margin: 0;
+        padding: 34px 153px 102px 158px;
+    }
+    .about-section #about-section-h1 {
+        height: 56px;
+        font-size: 64px;
+        font-weight: 700;
+        text-align: center;
+        margin: 0;
+        padding: 33px 40px 34px 45px;
+    }
 
 }
 
