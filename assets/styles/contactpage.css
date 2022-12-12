@@ -14,6 +14,7 @@
   .section1_mobile {
     position: relative;
     overflow: hidden;
+    background-color: #014e56;
   }
   .contact-title {
     display: flex;
