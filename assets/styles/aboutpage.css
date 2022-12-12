@@ -59,7 +59,18 @@ html {
         bottom: -20px;
     }
 
+    .row {
+        display: flex;
+        flex-direction: column;
+        gap: 52px;
+    }
 
+    .lastrow {
+        display: flex;
+        flex-direction: column;
+        gap: 52px;
+        padding-bottom: 16px;
+    }
 
     .director-list {
         display: flex;
@@ -75,15 +86,12 @@ html {
     }
 
     .director-list h1 {
-        width: 327px;
         height: 32px;
-        margin: auto;
-        position: absolute;
-        top: 88px;
-        left: 24px;
+        margin: 0;
         text-align: center;
         font-size: 32px;
         line-height: 32px;
+        padding: 0px 24px 0px 24px;
     }
 
     .director {
@@ -177,8 +185,8 @@ html {
     .about-section img {
         width: 200px;
         position: absolute;
-        left: 290px;
-        top: 260px;
+        bottom: -100px;
+        right: -100px;
     }
 
     .director-oval {
@@ -292,6 +300,7 @@ html {
         fill: #F67E7E;
         transition-duration: 0.5s;
     }
+
 }
 
 /* SECTION NEWSLETTERS SECTION 2 STARTS */
@@ -525,6 +534,7 @@ html {
         font-size: 32px;
         line-height: 32px;
         padding: 100px 161px 80px 162px;
+        flex-basis: 100%;
     }
 
     .director {
