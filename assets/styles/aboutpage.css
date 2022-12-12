@@ -369,10 +369,10 @@ html {
 @media only screen and (max-width: 600px) {
   /* Side Menu Elements */
   header .side_menu__container {
-    height: 419vh;
+    height: 490vh;
   }
   header .bg_side_menu__container {
-    height: 419vh;
+    height: 490vh;
   }
   /* Side Menu Elements */
   footer {
