@@ -1,11 +1,20 @@
 @import url("/assets/styles/general.css");
 
-
 @media only screen and (max-width: 600px) {
+  /* Side Menu Elements */
+  header .side_menu__container {
+    height: 200vh;
+  }
+  header .bg_side_menu__container {
+    height: 200vh;
+  }
+  /* Side Menu Elements */
+
   /* Contact Forms start */
   .section1_mobile {
     position: relative;
     overflow: hidden;
+    background-color: #014e56;
   }
   .contact-title {
     display: flex;
@@ -23,7 +32,7 @@
     padding-top: 50px;
   }
   .contact-title_2 {
-    color: #F67E7E;
+    color: #f67e7e;
     font-weight: 700;
     font-size: 32px;
     line-height: 48px;
@@ -43,7 +52,7 @@
     font-weight: 700;
     font-size: 18px;
     line-height: 28px;
-    font-family: 'Livvic';
+    font-family: "Livvic";
     font-style: normal;
   }
   .contact-forms-wrapper {
@@ -54,7 +63,7 @@
     margin: 0px 24px 88px 24px;
   }
   .contact-forms-inputs {
-    font-family: 'Livvic';
+    font-family: "Livvic";
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
@@ -70,13 +79,13 @@
     outline: none;
   }
   input:focus {
-    border-bottom: 1px solid #79C8C7;
+    border-bottom: 1px solid #79c8c7;
   }
   #contact-forms-inputs_top:focus {
-    border-bottom: 1px solid #79C8C7;
+    border-bottom: 1px solid #79c8c7;
   }
   .contact-forms-inputs_top {
-    font-family: 'Livvic';
+    font-family: "Livvic";
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
@@ -92,7 +101,7 @@
   }
   input::placeholder {
     padding-left: 14px;
-    font-family: 'Livvic';
+    font-family: "Livvic";
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
@@ -103,7 +112,7 @@
   .contact-forms-textarea_label {
     display: block;
     padding: 24px 0px 0px 14px;
-    font-family: 'Livvic';
+    font-family: "Livvic";
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
@@ -111,7 +120,7 @@
     color: rgba(255, 255, 255, 0.6);
   }
   .contact-forms-inputs-textarea {
-    font-family: 'Livvic';
+    font-family: "Livvic";
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
@@ -129,15 +138,15 @@
     overflow: hidden;
   }
   textarea:focus {
-    border-bottom: 1px solid #79C8C7;
+    border-bottom: 1px solid #79c8c7;
   }
   .contact-forms-inputs-submit {
     border-radius: 24px;
-    border: 2px solid #FFF;
+    border: 2px solid #fff;
     background: transparent;
     height: 48px;
     width: 123px;
-    font-family: 'Livvic';
+    font-family: "Livvic";
     font-style: normal;
     font-size: 18px;
     font-weight: 600;
@@ -147,11 +156,11 @@
   }
   input.contact-forms-inputs-submit:hover {
     border-radius: 24px;
-    border: 2px solid #FFF;
+    border: 2px solid #fff;
     background: #fff;
     height: 48px;
     width: 123px;
-    font-family: 'Livvic';
+    font-family: "Livvic";
     font-style: normal;
     font-size: 18px;
     font-weight: 600;
@@ -167,21 +176,20 @@
   .field-required {
     margin: 8px 0px 0px 14px;
     position: absolute;
-    font-family: 'Livvic';
+    font-family: "Livvic";
     font-style: italic;
     font-weight: 700;
     font-size: 10px;
     line-height: 13px;
-    color: #F67E7E;
+    color: #f67e7e;
   }
   .email-error {
-    color: #F67E7E;
+    color: #f67e7e;
     padding-left: 14px;
-    font-family: 'Livvic';
+    font-family: "Livvic";
     font-weight: 500;
     font-size: 10px;
     line-height: 13px;
-    
   }
   /*footer_home mobile start */
   footer {
@@ -211,7 +219,7 @@
     text-decoration: none;
   }
   footer .footermenu li a:hover {
-    color: #F67E7E;
+    color: #f67e7e;
   }
   footer .footermenu li:first-child {
     padding-right: 24px;
@@ -230,41 +238,38 @@
   }
   footer .footericons li:first-child,
   footer .footericons li:nth-child(2) {
-
     padding-right: 16px;
   }
   footer .footericons li:last-child {
     margin-top: 2.25px;
   }
   footer .footericons svg path:hover {
-
-    fill: #F67E7E;
-
+    fill: #f67e7e;
   }
   footer .address {
     height: 100px;
     width: 327px;
     margin: 24px 0 0;
-    font-family: 'Livvic';
+    font-family: "Livvic";
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
     line-height: 25px;
     text-align: center;
-    color: #FFFFFF;
+    color: #ffffff;
     mix-blend-mode: normal;
     opacity: 0.6;
   }
   footer p {
     width: 255px;
     height: 25px;
-    font-family: 'Livvic';
+    font-family: "Livvic";
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
     line-height: 25px;
     text-align: center;
-    color: #FFFFFF;
+    color: #ffffff;
     mix-blend-mode: normal;
     opacity: 0.6;
     margin: 16px 0 64px;
