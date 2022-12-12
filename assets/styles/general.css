@@ -78,7 +78,6 @@ header .nav__links{
 header .nav__links li {
   display: flex;
   padding: 0px 20px;
-
 }
 header .nav__links li a {
   transition: all 0.3 ease 0s;
@@ -154,10 +153,6 @@ header .side_menu__container {
     right: 0px;
     height: 407vh;
     top: none;
-    right: 0;
-    transition: transform .5s ease; /* our nice transition */
-    transform: translateX(100%);
-    -webkit-transform: translateX(100%);
   }
   header .side_menu_close__container {
     padding-top: 56.37px;
@@ -214,8 +209,6 @@ header .side_menu__container {
     display: block;
     overflow: hidden;
     z-index: 4;
-    transform: translateX(0);
-    -webkit-transform: translateX(0);
   }
   header .view-element {
     display: block;
