@@ -1,5 +1,5 @@
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 @media only screen and (max-width:767px) {
@@ -292,188 +292,191 @@ html {
         fill: #F67E7E;
         transition-duration: 0.5s;
     }
+
 }
 
 /* SECTION NEWSLETTERS SECTION 2 STARTS */
 
 #aboutsection2 {
-    background-color: #012F34;
-    position: relative;
-    /* display: flex; */
-    /* flex-direction: column; */
-    align-items: center;
-    justify-content: center;
-    width: 375px;
-    height: 632px;
-    overflow: hidden;
-
+  background-color: #012f34;
+  position: relative;
+  /* display: flex; */
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  width: 375px;
+  height: 632px;
+  overflow: hidden;
 }
 
 #patternhome {
-    position: absolute;
-    opacity: 0.53;
-    width: 200px;
-    height: 200px;
-    left: -100px;
-    top: -100px;
+  position: absolute;
+  opacity: 0.53;
+  width: 200px;
+  height: 200px;
+  left: -100px;
+  top: -100px;
 }
 
 #aboutclients {
-    color: white;
-    font-family: "Livvic";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 32px;
-    padding: 88px 24px 0 24px;
-    white-space: initial;
-    text-align: center;
+  color: white;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  padding: 88px 24px 0 24px;
+  white-space: initial;
+  text-align: center;
 }
 
 #theverge {
-    width: 146.56px;
-    height: 24.19px;
-    position: absolute;
-    top: 184px;
-    left: 113.11px;
+  width: 146.56px;
+  height: 24.19px;
+  position: absolute;
+  top: 184px;
+  left: 113.11px;
 }
 
 #jakarta {
-    width: 162.21px;
-    height: 19.92px;
-    position: absolute;
-    top: 265.11px;
-    left: 106px
+  width: 162.21px;
+  height: 19.92px;
+  position: absolute;
+  top: 265.11px;
+  left: 106px;
 }
 
 #guardian {
-    width: 159.37px;
-    height: 24.19px;
-    position: absolute;
-    top: 341.94px;
-    left: 107.42px;
+  width: 159.37px;
+  height: 24.19px;
+  position: absolute;
+  top: 341.94px;
+  left: 107.42px;
 }
 
 #techradar {
-    width: 146.56px;
-    height: 24.19px;
-    position: absolute;
-    top: 423.05px;
-    left: 113.11px;
+  width: 146.56px;
+  height: 24.19px;
+  position: absolute;
+  top: 423.05px;
+  left: 113.11px;
 }
 
 #gadgets {
-    width: 86.8px;
-    height: 39.84px;
-    position: absolute;
-    top: 504.16px;
-    left: 143px;
+  width: 86.8px;
+  height: 39.84px;
+  position: absolute;
+  top: 504.16px;
+  left: 143px;
 }
 
 /* SECTION NEWSLETTERS SECTION 2 ENDS */
 
 /*footer_home mobile start */
 @media only screen and (max-width: 600px) {
-    footer {
-        height: 432px;
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        justify-content: center;
-        align-items: center;
-        background: #002529;
-
-
-    }
-
+  /* Side Menu Elements */
+  header .side_menu__container {
+    height: 490vh;
+  }
+  header .bg_side_menu__container {
+    height: 490vh;
+  }
+  /* Side Menu Elements */
+  footer {
+    height: 432px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background: #002529;
+  }
     footer .footerlogo {
-        margin-top: 66px;
-        align-items: center;
-        width: 94.5px;
-        height: 24px;
-    }
+    margin-top: 66px;
+    align-items: center;
+    width: 94.5px;
+    height: 24px;
+  }
 
-    footer .footermenu {
-        margin-top: 24px;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        list-style: none;
-        display: flex;
-        flex-wrap: wrap;
-        list-style-type: none;
-        text-decoration: none;
-    }
+  footer .footermenu {
+    margin-top: 24px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    text-decoration: none;
+  }
 
-    footer .footermenu li a:hover {
-        color: #F67E7E;
-    }
+  footer .footermenu li a:hover {
+    color: #f67e7e;
+  }
 
-    footer .footermenu li:first-child {
-        padding-right: 24px;
-    }
+  footer .footermenu li:first-child {
+    padding-right: 24px;
+  }
 
-    footer .footericons {
-        background: none;
-        margin-top: 40px;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        list-style: none;
-        display: flex;
-        flex-wrap: wrap;
-        list-style-type: none;
-        text-decoration: none;
-    }
+  footer .footericons {
+    background: none;
+    margin-top: 40px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    text-decoration: none;
+  }
 
-    footer .footericons li:first-child,
-    footer .footericons li:nth-child(2) {
+  footer .footericons li:first-child,
+  footer .footericons li:nth-child(2) {
+    padding-right: 16px;
+  }
 
-        padding-right: 16px;
-    }
+  footer .footericons li:last-child {
+    margin-top: 2.25px;
+  }
 
-    footer .footericons li:last-child {
-        margin-top: 2.25px;
-    }
+  footer .footericons svg path:hover {
+    fill: #f67e7e;
+  }
 
-    footer .footericons svg path:hover {
+  footer .address {
+    height: 100px;
+    width: 327px;
+    margin: 24px 0 0;
+    font-family: "Livvic";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #ffffff;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+  }
 
-        fill: #F67E7E;
+  footer p {
+    width: 255px;
+    height: 25px;
+    font-family: "Livvic";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #ffffff;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+    margin: 16px 0 64px;
+  }
 
-    }
-
-    footer .address {
-        height: 100px;
-        width: 327px;
-        margin: 24px 0 0;
-        font-family: 'Livvic';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 15px;
-        line-height: 25px;
-        text-align: center;
-        color: #FFFFFF;
-        mix-blend-mode: normal;
-        opacity: 0.6;
-    }
-
-    footer p {
-        width: 255px;
-        height: 25px;
-        font-family: 'Livvic';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 15px;
-        line-height: 25px;
-        text-align: center;
-        color: #FFFFFF;
-        mix-blend-mode: normal;
-        opacity: 0.6;
-        margin: 16px 0 64px;
-    }
-
-    /*footer-mobile end*/
+  /*footer-mobile end*/
 }
+
 
 @media only screen and (min-width: 768px) {
 
@@ -725,8 +728,12 @@ html {
         justify-content: center;
         padding-bottom: 130.3px;
     }
+
+
+@media screen and (min-width: 768px) {
+  /* cia rasom tablet css */
 }
 
 @media screen and (min-width: 1440px) {
-    /* cia rasom desktop css */
+  /* cia rasom desktop css */
 }

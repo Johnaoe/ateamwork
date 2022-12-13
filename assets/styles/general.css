@@ -12,6 +12,9 @@
   box-sizing: border-box;
   font-family: "League Spartan", sans-serif;
 }
+body{
+  background-color: #002529;
+}
 h1 {
   font-family: "Livvic";
   font-style: normal;
@@ -75,9 +78,12 @@ header .logo {
   left: 165px;
   top: 77px;
 }
-
+header .nav__links{
+  display: flex;
+  flex-wrap: wrap;
+}
 header .nav__links li {
-  display: inline-block;
+  display: flex;
   padding: 0px 20px;
 }
 header .nav__links li a {
@@ -152,7 +158,7 @@ header .side_menu__container {
     position: absolute;
     width: 255px;
     right: 0px;
-    height: 100%;
+    height: 480vh;
     top: none;
   }
   header .side_menu_close__container {
@@ -196,9 +202,10 @@ header .side_menu__container {
   }
   header .bg_side_menu__container {
     width: 100%;
-    height: 100%;
+    height: 480vh;
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
+    z-index: 2;
     display: none;
   }
   header .side_menu__img {
