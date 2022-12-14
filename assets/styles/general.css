@@ -2,6 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
 
+/* Stiliai atskirom page dalim */
+@import "/assets/styles/home-tablet-section3.css";
+
+
 * {
   margin: 0;
   padding: 0;
@@ -225,7 +229,7 @@ header .side_menu__container {
     align-items: center;
     padding-right: 40px;
     padding-left: 35px;
-    padding-top: 83px;
+    padding-top: 73px;
     padding-bottom: 60px;
     background-color: #014e56;
     overflow-x: hidden;
@@ -247,7 +251,7 @@ header .side_menu__container {
     align-items: center;
     padding-right: 40px;
     padding-left: 35px;
-    padding-top: 83px;
+    padding-top: 73px;
     padding-bottom: 60px;
     background-color: #014e56;
     overflow-x: hidden;
@@ -273,7 +277,7 @@ header .side_menu__container {
     align-items: center;
     padding-right: 40px;
     padding-left: 35px;
-    padding-top: 83px;
+    padding-top: 73px;
     padding-bottom: 60px;
     background-color: #014e56;
     overflow-x: hidden;
@@ -295,7 +299,7 @@ header .side_menu__container {
     align-items: center;
     padding-right: 10%;
     padding-left: 10%;
-    padding-top: 83px;
+    padding-top: 77px;
     padding-bottom: 60px;
     background-color: #014e56;
     min-width: 992px;

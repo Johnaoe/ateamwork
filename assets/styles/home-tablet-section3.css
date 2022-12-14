@@ -1,0 +1,165 @@
+@media only screen and (min-width: 768px){
+
+.section-successStories-container {
+    width: 100vw;
+    height: 1199px;
+    background: #004047;
+    position: relative;
+    display: flex;
+  }
+  
+  #home-section3-image1 {
+    width: 150px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+  
+  #home-section3-image2 {
+    width: 200px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+  }
+  
+  #quote1 {
+    position: absolute;
+    top: 244px;
+    left: 351px;
+  }
+  
+  #quote2 {
+    position: absolute;
+    left: 351px;
+    top: 545px;
+  }
+  
+  #quote3 {
+    position: absolute;
+    left: 351px;
+    top: 846px;
+  }
+  
+  #home-section3-h1 {
+    width: 573px;
+    height: 96px;
+    position: absolute;
+    top: 100px;
+    left: 97px;
+    font-size: 32px;
+    line-height: 32px;
+    font-family: "Livvic";
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  #home-section3-h1 span {
+    font-size: 32px;
+    line-height: 32px;
+    font-family: "Livvic";
+    font-weight: 700;
+    color: #79C8C7;
+  }
+  
+  .section-successStories-container .quote {
+    width: 573px;
+    height: 75px;
+    font-family: "Livvic";
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    margin: 0;
+    left: 97px;
+  }
+  
+  #quote-pos1 {
+    top: 280px;
+  }
+  
+  #quote-pos2 {
+    top: 581px;
+  }
+  
+  #quote-pos3 {
+    top: 882px;
+  }
+  
+  .success-stories-personName {
+    width: 350px;
+    height: 28px;
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #79C8C7;
+    position: absolute;
+    left: 209px;
+    margin: 0;
+  }
+  
+  #name-pos1 {
+    top: 371px;
+  }
+  
+  #name-pos2 {
+    top: 672px;
+  }
+  
+  #name-pos3 {
+    top: 973px;
+  }
+  
+  
+  .success-stories-profession {
+    width: 350px;
+    height: 18px;
+    font-family: 'Livvic';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 28px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    left: 209px;
+    margin: 0;
+  }
+  
+  #prof-pos1 {
+    top: 401px;
+  }
+  
+  #prof-pos2 {
+    top: 702px;
+  }
+  
+  #prof-pos3 {
+    top: 1003px;
+  }
+  
+  .success-stories-avatar {
+    position: absolute;
+    width: 62px;
+    height: 62px;
+    left: 353px;
+    border: 2px solid #C4FFFE;
+    border-radius: 50%;
+  }
+  
+  #avatar-pos1 {
+    top: 435px;
+  }
+  
+  #avatar-pos2 {
+    top: 736px;
+  }
+  
+  #avatar-pos3 {
+    top: 1037px;
+  }
+}
