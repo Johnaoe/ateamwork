@@ -2,7 +2,6 @@
 
 @media only screen and (max-width: 600px) {
 
-
   /* Side Menu Elements */
   header .side_menu__container {
     height: 200vh;
@@ -212,11 +211,9 @@
     font-weight: 500;
     font-size: 10px;
     line-height: 13px;
-
   }
   .contacts-svg_tablet {
     display: none;
-
   }
 
   /*footer_home mobile start */
@@ -317,9 +314,6 @@
 }
 
 /* cia rasom mobile css */
-
-@media screen and (min-width: 768px) {}
-
 @media screen and (min-width: 768px) {
   /* cia rasom tablet css */
   body {
@@ -513,6 +507,7 @@
   }
 
 }
+
 
 
 @media screen and (min-width: 1440px) {
