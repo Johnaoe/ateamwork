@@ -1,6 +1,7 @@
 @import url("/assets/styles/general.css");
 
 @media only screen and (max-width: 600px) {
+
   /* Side Menu Elements */
   header .side_menu__container {
     height: 200vh;
@@ -10,12 +11,14 @@
   }
   /* Side Menu Elements */
 
+
   /* Contact Forms start */
   .section1_mobile {
     position: relative;
     overflow: hidden;
     background-color: #014e56;
   }
+
   .contact-title {
     display: flex;
     /* flex-wrap: wrap; */
@@ -23,6 +26,7 @@
     justify-content: center;
     align-items: center;
   }
+
   .contact-title_1 {
     color: #fff;
     font-weight: 700;
@@ -31,12 +35,14 @@
     padding-bottom: 16px;
     padding-top: 50px;
   }
+
   .contact-title_2 {
     color: #f67e7e;
     font-weight: 700;
     font-size: 32px;
     line-height: 48px;
   }
+
   .contact-info-wrapper {
     display: grid;
     grid-template-columns: 72px 232px;
@@ -47,6 +53,7 @@
     column-gap: 23px;
     row-gap: 24px;
   }
+
   .contact-info_text {
     color: #fff;
     font-weight: 700;
@@ -55,6 +62,7 @@
     font-family: "Livvic";
     font-style: normal;
   }
+
   .contact-forms-wrapper {
     /* display: grid;
     grid-template-columns: 1fr; */
@@ -62,6 +70,7 @@
     position: relative;
     margin: 0px 24px 88px 24px;
   }
+
   .contact-forms-inputs {
     font-family: "Livvic";
     font-style: normal;
@@ -78,12 +87,15 @@
     margin-top: 24px;
     outline: none;
   }
+
   input:focus {
     border-bottom: 1px solid #79c8c7;
   }
+
   #contact-forms-inputs_top:focus {
     border-bottom: 1px solid #79c8c7;
   }
+
   .contact-forms-inputs_top {
     font-family: "Livvic";
     font-style: normal;
@@ -99,6 +111,7 @@
     padding-bottom: 17px;
     outline: none;
   }
+
   input::placeholder {
     padding-left: 14px;
     font-family: "Livvic";
@@ -109,6 +122,7 @@
     /* color: rgba(255, 255, 255, 0.6); */
     color: var(--c, rgba(255, 255, 255, 0.6));
   }
+
   .contact-forms-textarea_label {
     display: block;
     padding: 24px 0px 0px 14px;
@@ -119,6 +133,7 @@
     line-height: 25px;
     color: rgba(255, 255, 255, 0.6);
   }
+
   .contact-forms-inputs-textarea {
     font-family: "Livvic";
     font-style: normal;
@@ -137,9 +152,11 @@
     outline: none;
     overflow: hidden;
   }
+
   textarea:focus {
     border-bottom: 1px solid #79c8c7;
   }
+
   .contact-forms-inputs-submit {
     border-radius: 24px;
     border: 2px solid #fff;
@@ -154,6 +171,7 @@
     color: #fff;
     margin-top: 24px;
   }
+
   input.contact-forms-inputs-submit:hover {
     border-radius: 24px;
     border: 2px solid #fff;
@@ -168,11 +186,13 @@
     color: #002529;
     margin-top: 24px;
   }
+
   .contacts-svg_mobile {
     position: absolute;
     right: -124px;
     bottom: -200px;
   }
+
   .field-required {
     margin: 8px 0px 0px 14px;
     position: absolute;
@@ -183,6 +203,7 @@
     line-height: 13px;
     color: #f67e7e;
   }
+
   .email-error {
     color: #f67e7e;
     padding-left: 14px;
@@ -191,6 +212,10 @@
     font-size: 10px;
     line-height: 13px;
   }
+  .contacts-svg_tablet {
+    display: none;
+  }
+
   /*footer_home mobile start */
   footer {
     height: 432px;
@@ -201,12 +226,14 @@
     align-items: center;
     background: #002529;
   }
+
   footer .footerlogo {
     margin-top: 66px;
     align-items: center;
     width: 94.5px;
     height: 24px;
   }
+
   footer .footermenu {
     margin-top: 24px;
     flex-direction: row;
@@ -218,12 +245,15 @@
     list-style-type: none;
     text-decoration: none;
   }
+
   footer .footermenu li a:hover {
     color: #f67e7e;
   }
+
   footer .footermenu li:first-child {
     padding-right: 24px;
   }
+
   footer .footericons {
     background: none;
     margin-top: 40px;
@@ -236,16 +266,20 @@
     list-style-type: none;
     text-decoration: none;
   }
+
   footer .footericons li:first-child,
   footer .footericons li:nth-child(2) {
     padding-right: 16px;
   }
+
   footer .footericons li:last-child {
     margin-top: 2.25px;
   }
+
   footer .footericons svg path:hover {
     fill: #f67e7e;
   }
+
   footer .address {
     height: 100px;
     width: 327px;
@@ -260,6 +294,7 @@
     mix-blend-mode: normal;
     opacity: 0.6;
   }
+
   footer p {
     width: 255px;
     height: 25px;
@@ -274,13 +309,206 @@
     opacity: 0.6;
     margin: 16px 0 64px;
   }
+
   /*footer-mobile end*/
 }
 
 /* cia rasom mobile css */
 @media screen and (min-width: 768px) {
   /* cia rasom tablet css */
+  body {
+    background-color: #014E56;
+  }
+  .section1_mobile {
+    position: relative;
+    overflow: hidden;
+  }
+  .contact-title {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-title_1 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 56px;
+    padding-bottom: 16px;
+    padding-top: 52px;
+  }
+  .contact-title_2 {
+    color: #F67E7E;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+  }
+  .contact-info-wrapper {
+    position: relative;
+    display: grid;
+    grid-template-columns: 72px 420px;
+    margin: 24px 127px 64px 127px;
+    justify-items: start;
+    align-items: center;
+    justify-content: center;
+    column-gap: 23px;
+    row-gap: 24px;
+  }
+  .contact-info_text {
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: 'Livvic';
+    font-style: normal;
+    
+  }
+  .contact-forms-wrapper {
+    /* display: grid;
+    grid-template-columns: 1fr; */
+    /* row-gap: 24px; */
+    position: relative;
+    margin: 50px 115px 112px 115px;
+  }
+  .contact-forms-inputs {
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    color: #fff;
+    letter-spacing: -0.12px;
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 17px;
+    margin-top: 24px;
+    outline: none;
+  }
+  input:focus {
+    border-bottom: 1px solid #79C8C7;
+  }
+  #contact-forms-inputs_top:focus {
+    border-bottom: 1px solid #79C8C7;
+  }
+  .contact-forms-inputs_top {
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: -0.12px;
+    color: #fff;
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 17px;
+    outline: none;
+  }
+  input::placeholder {
+    padding-left: 14px;
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    /* color: rgba(255, 255, 255, 0.6); */
+    color: var(--c, rgba(255, 255, 255, 0.6));
+  }
+  .contact-forms-textarea_label {
+    display: block;
+    padding: 24px 0px 0px 14px;
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  .contact-forms-inputs-textarea {
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: -0.12px;
+    color: #fff;
+    width: 100%;
+    height: 58px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 17px;
+    padding-top: 24px;
+    outline: none;
+    overflow: hidden;
+  }
+  textarea:focus {
+    border-bottom: 1px solid #79C8C7;
+  }
+  .contact-forms-inputs-submit {
+    border-radius: 24px;
+    border: 2px solid #FFF;
+    background: transparent;
+    height: 48px;
+    width: 123px;
+    font-family: 'Livvic';
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #fff;
+    margin-top: 24px;
+  }
+  input.contact-forms-inputs-submit:hover {
+    border-radius: 24px;
+    border: 2px solid #FFF;
+    background: #fff;
+    height: 48px;
+    width: 123px;
+    font-family: 'Livvic';
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #002529;
+    margin-top: 24px;
+  }
+  .field-required {
+    margin: 8px 0px 0px 14px;
+    position: absolute;
+    font-family: 'Livvic';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 13px;
+    color: #F67E7E;
+  }
+  .email-error {
+    color: #F67E7E;
+    padding-left: 14px;
+    font-family: 'Livvic';
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 13px;
+    
+  }
+  .contacts-svg_mobile {
+    position: absolute;
+    right: -215px;
+    bottom: -112px;
+  }
+  .contacts-svg_tablet {
+    position: absolute;
+    left: -100px;
+    top: 35px;
+  }
+
 }
+
+
 
 @media screen and (min-width: 1440px) {
   /* cia rasom desktop css */
