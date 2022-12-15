@@ -5,6 +5,7 @@
 /* Stiliai atskirom page dalim */
 @import "/assets/styles/home-tablet-section3.css";
 @import "/assets/styles/about-tablet-section1.css";
+@import "/assets/styles/footer.css";
 
 * {
   margin: 0;

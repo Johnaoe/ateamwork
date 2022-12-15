@@ -289,8 +289,6 @@ html {
         transition-duration: 0.5s;
     }
 
-}
-
     #linkedin-icon:hover {
         fill: #F67E7E;
         transition-duration: 0.5s;
@@ -373,7 +371,6 @@ html {
 
 /* SECTION NEWSLETTERS SECTION 2 ENDS */
 
-/*footer_home mobile start */
 @media only screen and (max-width: 600px) {
   /* Side Menu Elements */
   header .side_menu__container {
@@ -383,33 +380,7 @@ html {
     height: 490vh;
   }
   /* Side Menu Elements */
-  footer {
-    height: 432px;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    background: #002529;
-  }
-    footer .footerlogo {
-    margin-top: 66px;
-    align-items: center;
-    width: 94.5px;
-    height: 24px;
-  }
 
-  footer .footermenu {
-    margin-top: 24px;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    list-style-type: none;
-    text-decoration: none;
-  }
 
 
 
@@ -464,75 +435,8 @@ html {
 
     /* CONTACT US ENDS */
 
-  footer .footermenu li a:hover {
-    color: #f67e7e;
-  }
-
-  footer .footermenu li:first-child {
-    padding-right: 24px;
-  }
-
-  footer .footericons {
-    background: none;
-    margin-top: 40px;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    list-style-type: none;
-    text-decoration: none;
-  }
-
-  footer .footericons li:first-child,
-  footer .footericons li:nth-child(2) {
-    padding-right: 16px;
-  }
-
-  footer .footericons li:last-child {
-    margin-top: 2.25px;
-  }
-
-  footer .footericons svg path:hover {
-    fill: #f67e7e;
-  }
-
-  footer .address {
-    height: 100px;
-    width: 327px;
-    margin: 24px 0 0;
-    font-family: "Livvic";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 25px;
-    text-align: center;
-    color: #ffffff;
-    mix-blend-mode: normal;
-    opacity: 0.6;
-  }
-
-  footer p {
-    width: 255px;
-    height: 25px;
-    font-family: "Livvic";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 25px;
-    text-align: center;
-    color: #ffffff;
-    mix-blend-mode: normal;
-    opacity: 0.6;
-    margin: 16px 0 64px;
-  }
-
-  /*footer-mobile end*/
-
 @media only screen and (min-width: 768px) {
 
-    /* cia rasom tablet css */
     #about-section {
         background: #014E56;
         overflow: hidden;
@@ -764,14 +668,12 @@ html {
         justify-content: center;
         padding-bottom: 76px;
     }
-
     .column {
         display: flex;
         flex-direction: column;
         flex-basis: 100%;
         flex: 1;
     }
-
     .lastrow {
         display: flex;
         flex-direction: row;
@@ -1033,14 +935,4 @@ html {
         justify-content: center;
         padding-bottom: 130.3px;
     }
-
-
-@media screen and (min-width: 768px) {
-  /* cia rasom tablet css */
-
-}
-
-
-@media screen and (min-width: 1440px) {
-  /* cia rasom desktop css */
-}
+}}
