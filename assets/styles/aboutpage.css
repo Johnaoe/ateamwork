@@ -637,9 +637,8 @@ html {
 
     .info-screen {
         background: #002529;
-        width: 327px;
-        height: 253px;
         position: absolute;
+        height: 100%;
         top: 0px;
         left: 0px;
         display: flex;
