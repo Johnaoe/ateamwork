@@ -2,11 +2,15 @@
 @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
 
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "League Spartan", sans-serif;
+}
+body{
+  background-color: #002529;
 }
 h1 {
   font-family: "Livvic";
@@ -71,9 +75,12 @@ header .logo {
   left: 165px;
   top: 77px;
 }
-
+header .nav__links{
+  display: flex;
+  flex-wrap: wrap;
+}
 header .nav__links li {
-  display: inline-block;
+  display: flex;
   padding: 0px 20px;
 }
 header .nav__links li a {
@@ -148,7 +155,7 @@ header .side_menu__container {
     position: absolute;
     width: 255px;
     right: 0px;
-    height: 100%;
+    height: 480vh;
     top: none;
   }
   header .side_menu_close__container {
@@ -192,9 +199,10 @@ header .side_menu__container {
   }
   header .bg_side_menu__container {
     width: 100%;
-    height: 100%;
+    height: 480vh;
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
+    z-index: 2;
     display: none;
   }
   header .side_menu__img {
@@ -218,7 +226,7 @@ header .side_menu__container {
     align-items: center;
     padding-right: 40px;
     padding-left: 35px;
-    padding-top: 83px;
+    padding-top: 73px;
     padding-bottom: 60px;
     background-color: #014e56;
     overflow-x: hidden;
@@ -240,7 +248,7 @@ header .side_menu__container {
     align-items: center;
     padding-right: 40px;
     padding-left: 35px;
-    padding-top: 83px;
+    padding-top: 73px;
     padding-bottom: 60px;
     background-color: #014e56;
     overflow-x: hidden;
@@ -266,7 +274,7 @@ header .side_menu__container {
     align-items: center;
     padding-right: 40px;
     padding-left: 35px;
-    padding-top: 83px;
+    padding-top: 73px;
     padding-bottom: 60px;
     background-color: #014e56;
     overflow-x: hidden;
@@ -288,7 +296,7 @@ header .side_menu__container {
     align-items: center;
     padding-right: 10%;
     padding-left: 10%;
-    padding-top: 83px;
+    padding-top: 77px;
     padding-bottom: 60px;
     background-color: #014e56;
     min-width: 992px;

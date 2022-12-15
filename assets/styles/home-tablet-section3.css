@@ -1,0 +1,194 @@
+@media only screen and (max-width: 767px) {
+  .section-successStories-container {
+    background: #004047;
+    position: relative;
+    height: 1410px;
+  }
+
+  #home-section3-image1 {
+    width: 150px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+
+  #home-section3-image2 {
+    width: 200px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+  }
+
+  #home-section3-h1 {
+    font-size: 32px;
+    line-height: 32px;
+    font-family: "Livvic";
+    font-weight: 700;
+    text-align: center;
+    padding: 140px 24px 0px 24px;
+    
+  }
+
+  #home-section3-h1 span {
+    font-size: 32px;
+    line-height: 32px;
+    font-family: "Livvic";
+    font-weight: 700;
+    color: #79C8C7;
+  }
+
+  .section-successStories-container .quote {
+    font-family: "Livvic";
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    padding: 84px 24px 0px 24px;
+    z-index: 2;
+    background: url('assets/images/icons/icon-quotes.svg');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 47px;
+  }
+
+  .success-stories-personName {
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #79C8C7;
+    margin: 0;
+    padding: 16px 24px 0px 24px;
+  }
+
+
+  .success-stories-profession {
+    font-family: 'Livvic';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 28px;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    padding: 2px 24px 0px 24px;
+  }
+
+  .success-stories-avatar {
+    width: 62px;
+    height: 62px;
+    border: 2px solid #C4FFFE;
+    border-radius: 50%;
+    display: block;
+    margin-top: 16px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #success-stories-last-avatar {
+    margin-bottom: 164px;
+  }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+  .section-successStories-container {
+    background: #004047;
+    position: relative;
+    height: 1220px;
+  }
+
+  #home-section3-image1 {
+    width: 150px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+
+  #home-section3-image2 {
+    width: 200px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+  }
+
+  #home-section3-h1 {
+    font-size: 32px;
+    line-height: 32px;
+    font-family: "Livvic";
+    font-weight: 700;
+    text-align: center;
+    padding: 100px 98px 0px 97px;
+    
+  }
+
+  #home-section3-h1 span {
+    font-size: 32px;
+    line-height: 32px;
+    font-family: "Livvic";
+    font-weight: 700;
+    color: #79C8C7;
+  }
+
+  .section-successStories-container .quote {
+    font-family: "Livvic";
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    padding: 84px 96px 0px 97px;
+    z-index: 2;
+    background: url('assets/images/icons/icon-quotes.svg');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 47px;
+  }
+
+  .success-stories-personName {
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #79C8C7;
+    margin: 0;
+    padding: 16px 209px 0px 209px;
+  }
+
+
+  .success-stories-profession {
+    font-family: 'Livvic';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 28px;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    padding: 2px 209px 0px 209px;
+  }
+
+  .success-stories-avatar {
+    width: 62px;
+    height: 62px;
+    border: 2px solid #C4FFFE;
+    border-radius: 50%;
+    display: block;
+    margin-top: 16px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #success-stories-last-avatar {
+    margin-bottom: 164px;
+  }
+
+}
