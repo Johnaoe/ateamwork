@@ -240,6 +240,101 @@ header .side_menu__container {
   header .ham-menu-icon {
     visibility: hidden;
   }
+    /* FOOTER TABLET START*/
+    footer {
+      height: 271px;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      position: relative;
+      justify-content: center;
+      align-content: space-between;
+      /* gap: 30px; */
+      justify-content: center;
+      align-items: center;
+      background: #002529;
+    }
+    footer .footerlogo {
+      margin: 56px 15px 53px 39px;
+      cursor: pointer;
+      height: 24px;
+      width: 95px;
+    }
+    footer .footermenu {
+      flex-direction: row;
+      /* flex-wrap: wrap; */
+      justify-content: center;
+      list-style: none;
+      display: flex;
+      margin: 0px 0px 33px 39px;
+      list-style-type: none;
+      text-decoration: none;
+    }
+    footer .footermenu li a:hover {
+      color: #f67e7e;
+    }
+  
+    footer .footermenu li:first-child {
+      padding-right: 24px;
+    }
+  
+    footer .footericons {
+      background: none;
+      flex-direction: row;
+      justify-content: center;
+      list-style: none;
+      display: flex;
+      flex-wrap: nowrap;
+      list-style-type: none;
+      text-decoration: none;
+      height: 24px;
+      margin: 0px 0px 50px 39px;
+    }
+  
+    footer .footericons li:first-child,
+    footer .footericons li:nth-child(2) {
+      padding-right: 16px;
+    }
+  
+    footer .footericons li:last-child {
+      margin-top: 2.25px;
+    }
+  
+    footer .footericons svg path:hover {
+      fill: #f67e7e;
+    }
+  
+    footer .address {
+      height: 100px;
+      width: 327px;
+      margin: 56px 40px 0 0;
+      font-family: "Livvic";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 25px;
+      text-align: end;
+      color: #ffffff;
+      mix-blend-mode: normal;
+      opacity: 0.6;
+      order: 4;
+    }
+  
+    footer p {
+      width: 327px;
+      height: 25px;
+      font-family: "Livvic";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 25px;
+      text-align: end;
+      color: #ffffff;
+      mix-blend-mode: normal;
+      opacity: 0.6;
+      margin: 34px 40px 56px 0px;
+      order: 5;
+    }
 }
 @media only screen and (max-width: 653px) and (min-width: 601px){
   header .navbar_menu__container {
