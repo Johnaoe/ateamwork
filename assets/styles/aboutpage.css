@@ -58,19 +58,6 @@ html {
         bottom: -20px;
     }
 
-    .row {
-        display: flex;
-        flex-direction: column;
-        gap: 52px;
-    }
-
-    .lastrow {
-        display: flex;
-        flex-direction: column;
-        gap: 52px;
-        padding-bottom: 16px;
-    }
-
     .director-list {
         display: flex;
         flex-direction: column;
@@ -85,12 +72,15 @@ html {
     }
 
     .director-list h1 {
+        width: 327px;
         height: 32px;
-        margin: 0;
+        margin: auto;
+        position: absolute;
+        top: 88px;
+        left: 24px;
         text-align: center;
         font-size: 32px;
         line-height: 32px;
-        padding: 0px 24px 0px 24px;
     }
 
     .director {
@@ -180,12 +170,11 @@ html {
         text-align: center;
     }
 
-
     .about-section img {
         width: 200px;
         position: absolute;
-        bottom: -100px;
-        right: -100px;
+        left: 290px;
+        top: 260px;
     }
 
     .director-oval {
@@ -299,6 +288,13 @@ html {
         fill: #F67E7E;
         transition-duration: 0.5s;
     }
+
+}
+
+    #linkedin-icon:hover {
+        fill: #F67E7E;
+        transition-duration: 0.5s;
+    }
 }
 /* SECTION NEWSLETTERS SECTION 2 STARTS */
 
@@ -397,7 +393,6 @@ html {
     background: #002529;
   }
     footer .footerlogo {
-
     margin-top: 66px;
     align-items: center;
     width: 94.5px;
@@ -838,7 +833,6 @@ html {
         font-size: 32px;
         line-height: 32px;
         padding: 100px 161px 80px 162px;
-        flex-basis: 100%;
     }
 
     .director {
@@ -1038,7 +1032,8 @@ html {
         gap: 11px;
         justify-content: center;
         padding-bottom: 130.3px;
-    }  
+    }
+
 
 @media screen and (min-width: 768px) {
   /* cia rasom tablet css */
