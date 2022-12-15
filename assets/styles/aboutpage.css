@@ -292,16 +292,23 @@ html {
     transition-duration: 0.5s;
 }
 
+
 /* SECTION NEWSLETTERS SECTION 2 STARTS */
 
+#logosrow {
+    display: flex;
+    flex-direction: column;
+    gap: 56.95px;
+    align-items: center;
+}
+
 #aboutsection2 {
-    background-color: #012F34;
+    background-color: #012f34;
     position: relative;
     /* display: flex; */
     /* flex-direction: column; */
     align-items: center;
     justify-content: center;
-    width: 375px;
     height: 632px;
     overflow: hidden;
 
@@ -323,49 +330,39 @@ html {
     font-weight: 700;
     font-size: 32px;
     line-height: 32px;
-    padding: 88px 24px 0 24px;
+    padding: 80px 24px 0 24px;
     white-space: initial;
     text-align: center;
+    padding-bottom: 34px;
 }
 
 #theverge {
     width: 146.56px;
     height: 24.19px;
-    position: absolute;
-    top: 184px;
-    left: 113.11px;
+
 }
 
 #jakarta {
     width: 162.21px;
     height: 19.92px;
-    position: absolute;
-    top: 265.11px;
-    left: 106px
+
 }
 
 #guardian {
     width: 159.37px;
     height: 24.19px;
-    position: absolute;
-    top: 341.94px;
-    left: 107.42px;
+
 }
 
 #techradar {
     width: 146.56px;
     height: 24.19px;
-    position: absolute;
-    top: 423.05px;
-    left: 113.11px;
+
 }
 
 #gadgets {
     width: 86.8px;
     height: 39.84px;
-    position: absolute;
-    top: 504.16px;
-    left: 143px;
 }
 
 /* SECTION NEWSLETTERS SECTION 2 ENDS */
@@ -484,7 +481,7 @@ html {
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: center;
+        justify-content: space-between;
         padding-bottom: 100px;
         overflow: hidden;
 
@@ -526,6 +523,76 @@ html {
     }
 
     /* CONTACT US ENDS */
+
+    /* SECTION NEWSLETTERS SECTION 2 STARTS */
+    #logosrow {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 37px;
+        flex-wrap: wrap;
+        margin-left: 39px;
+        margin-right: 40px;
+        padding-bottom: 1 07px;
+    }
+
+    #aboutsection2 {
+        background-color: #012F34;
+        position: relative;
+        align-items: flex-start;
+        justify-content: center;
+        overflow: hidden;
+        max-height: 308px;
+    }
+
+    #patternhome {
+        /* position: absolute; */
+        opacity: 0.53;
+        width: 200px;
+        height: 200px;
+        left: 0px;
+        top: -118px;
+    }
+
+    #aboutclients {
+        color: white;
+        font-family: "Livvic";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 32px;
+        padding: 80px 156px 0px 155px;
+        white-space: initial;
+        text-align: center;
+    }
+
+    #theverge {
+        width: 103px;
+        height: 17px;
+    }
+
+    #jakarta {
+        width: 114px;
+        height: 14px;
+    }
+
+    #guardian {
+        width: 159.37px;
+        height: 24.19px;
+    }
+
+    #techradar {
+        width: 103px;
+        height: 17px;
+    }
+
+    #gadgets {
+        width: 61px;
+        height: 28px;
+    }
+
+    /* SECTION NEWSLETTERS SECTION 2 ENDS */
+
 }
 
 
