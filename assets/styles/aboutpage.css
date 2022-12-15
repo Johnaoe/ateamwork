@@ -12,6 +12,7 @@ html {
         justify-content: center;
         /* position: absolute; */
         padding-bottom: 83px;
+
     }
 
     #section2AboutMobile p {
@@ -294,6 +295,7 @@ html {
         transition-duration: 0.5s;
     }
 }
+
 /* SECTION NEWSLETTERS SECTION 2 STARTS */
 
 #aboutsection2 {
