@@ -47,7 +47,7 @@ html {
     #section2MobileId:hover {
         background-color: #002529;
         color: #ffffff;
-        border-color: #002529;
+        border-color: #002529;  
     }
 
     .section2Img {
@@ -58,82 +58,81 @@ html {
         bottom: -20px;
     }
 }
+
 /* SECTION NEWSLETTERS SECTION 2 STARTS */
 
+#logosrow {
+    display: flex;
+    flex-direction: column;
+    gap: 56.95px;
+    align-items: center;
+}
+
 #aboutsection2 {
-  background-color: #012f34;
-  position: relative;
-  /* display: flex; */
-  /* flex-direction: column; */
-  align-items: center;
-  justify-content: center;
-  width: 375px;
-  height: 632px;
-  overflow: hidden;
+    background-color: #012f34;
+    position: relative;
+    /* display: flex; */
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    height: 632px;
+    overflow: hidden;
+
 }
 
 #patternhome {
-  position: absolute;
-  opacity: 0.53;
-  width: 200px;
-  height: 200px;
-  left: -100px;
-  top: -100px;
+    position: absolute;
+    opacity: 0.53;
+    width: 200px;
+    height: 200px;
+    left: -100px;
+    top: -100px;
 }
 
 #aboutclients {
-  color: white;
-  font-family: "Livvic";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 32px;
-  padding: 88px 24px 0 24px;
-  white-space: initial;
-  text-align: center;
+    color: white;
+    font-family: "Livvic";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    padding: 80px 24px 0 24px;
+    white-space: initial;
+    text-align: center;
+    padding-bottom: 34px;
 }
 
 #theverge {
-  width: 146.56px;
-  height: 24.19px;
-  position: absolute;
-  top: 184px;
-  left: 113.11px;
+    width: 146.56px;
+    height: 24.19px;
+
 }
 
 #jakarta {
-  width: 162.21px;
-  height: 19.92px;
-  position: absolute;
-  top: 265.11px;
-  left: 106px;
+    width: 162.21px;
+    height: 19.92px;
+
 }
 
 #guardian {
-  width: 159.37px;
-  height: 24.19px;
-  position: absolute;
-  top: 341.94px;
-  left: 107.42px;
+    width: 159.37px;
+    height: 24.19px;
+
 }
 
 #techradar {
-  width: 146.56px;
-  height: 24.19px;
-  position: absolute;
-  top: 423.05px;
-  left: 113.11px;
+    width: 146.56px;
+    height: 24.19px;
+
 }
 
 #gadgets {
-  width: 86.8px;
-  height: 39.84px;
-  position: absolute;
-  top: 504.16px;
-  left: 143px;
+    width: 86.8px;
+    height: 39.84px;
 }
 
 /* SECTION NEWSLETTERS SECTION 2 ENDS */
+
 
 /*footer_home mobile start */
 @media only screen and (max-width: 600px) {
@@ -330,24 +329,6 @@ html {
 
 
 
-/* SECTION NEWSLETTERS SECTION 2 STARTS */
-
-#logosrow {
-    display: flex;
-    flex-direction: column;
-    gap: 56.95px;
-    align-items: center;
-}
-
-#aboutsection2 {
-    background-color: #012f34;
-    position: relative;
-    /* display: flex; */
-    /* flex-direction: column; */
-    align-items: center;
-    justify-content: center;
-    height: 632px;
-    overflow: hidden;
 
     .director-list {
         font-family: "Livvic";
@@ -391,47 +372,6 @@ html {
     }
 
 
-#aboutclients {
-    color: white;
-    font-family: "Livvic";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 32px;
-    padding: 80px 24px 0 24px;
-    white-space: initial;
-    text-align: center;
-    padding-bottom: 34px;
-}
-
-#theverge {
-    width: 146.56px;
-    height: 24.19px;
-
-}
-
-#jakarta {
-    width: 162.21px;
-    height: 19.92px;
-
-}
-
-#guardian {
-    width: 159.37px;
-    height: 24.19px;
-
-}
-
-#techradar {
-    width: 146.56px;
-    height: 24.19px;
-
-}
-
-#gadgets {
-    width: 86.8px;
-    height: 39.84px;
-}
 
     .director #director-position {
         color: #FFFFFF;
