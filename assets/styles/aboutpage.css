@@ -289,8 +289,6 @@ html {
         transition-duration: 0.5s;
     }
 
-}
-
     #linkedin-icon:hover {
         fill: #F67E7E;
         transition-duration: 0.5s;
@@ -527,7 +525,7 @@ html {
     opacity: 0.6;
     margin: 16px 0 64px;
   }
-
+}
   /*footer-mobile end*/
 
 @media only screen and (min-width: 768px) {
@@ -1033,14 +1031,4 @@ html {
         justify-content: center;
         padding-bottom: 130.3px;
     }
-
-
-@media screen and (min-width: 768px) {
-  /* cia rasom tablet css */
-
-}
-
-
-@media screen and (min-width: 1440px) {
-  /* cia rasom desktop css */
 }
