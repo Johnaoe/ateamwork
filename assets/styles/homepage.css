@@ -244,173 +244,6 @@
 
 /*section 2 mobile end */
 
-/* SECTION 3 START */
-
-.section-successStories-container {
-  width: 375px;
-  height: 1410px;
-  background: #004047;
-  position: relative;
-  display: flex;
-}
-
-#home-section3-image1 {
-  width: 150px;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-}
-
-#home-section3-image2 {
-  width: 200px;
-  position: absolute;
-  right: 0px;
-  bottom: 0px;
-}
-
-#quote1 {
-  position: absolute;
-  top: 316px;
-  left: 154px;
-}
-
-#quote2 {
-  position: absolute;
-  left: 154px;
-  top: 642px;
-}
-
-#quote3 {
-  position: absolute;
-  left: 154px;
-  top: 968px;
-}
-
-#home-section3-h1 {
-  width: 327px;
-  height: 128px;
-  position: absolute;
-  top: 140px;
-  left: 24px;
-  font-size: 32px;
-  line-height: 32px;
-  font-family: "Livvic";
-  font-weight: 700;
-  text-align: center;
-}
-
-#home-section3-h1 span {
-  font-size: 32px;
-  line-height: 32px;
-  font-family: "Livvic";
-  font-weight: 700;
-  color: #79C8C7;
-}
-
-.section-successStories-container .quote {
-  width: 327px;
-  height: 100px;
-  font-family: "Livvic";
-  font-weight: 600;
-  font-size: 15px;
-  line-height: 25px;
-  text-align: center;
-  color: #fff;
-  position: absolute;
-  margin: 0;
-  left: 24px;
-}
-
-#quote-pos1 {
-  top: 352px;
-}
-
-#quote-pos2 {
-  top: 678px;
-}
-
-#quote-pos3 {
-  top: 1004px;
-}
-
-.success-stories-personName {
-  width: 327px;
-  height: 28px;
-  font-family: 'Livvic';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 28px;
-  text-align: center;
-  color: #79C8C7;
-  position: absolute;
-  left: 24px;
-  margin: 0;
-}
-
-#name-pos1 {
-  top: 468px;
-}
-
-#name-pos2 {
-  top: 794px;
-}
-
-#name-pos3 {
-  top: 1120px;
-}
-
-
-.success-stories-profession {
-  width: 327px;
-  height: 18px;
-  font-family: 'Livvic';
-  font-style: italic;
-  font-weight: 500;
-  font-size: 13px;
-  line-height: 28px;
-  text-align: center;
-  color: #fff;
-  position: absolute;
-  left: 24px;
-  margin: 0;
-}
-
-#prof-pos1 {
-  top: 498px;
-}
-
-#prof-pos2 {
-  top: 824px;
-}
-
-#prof-pos3 {
-  top: 1150px;
-}
-
-.success-stories-avatar {
-  position: absolute;
-  width: 62px;
-  height: 62px;
-  left: 157px;
-  border: 2px solid #C4FFFE;
-  border-radius: 50%;
-}
-
-#avatar-pos1 {
-  top: 532px;
-}
-
-#avatar-pos2 {
-  top: 858px;
-}
-
-#avatar-pos3 {
-  top: 1184px;
-}
-
-/* SECTION 3 END */
-
 
 /* SECTION CONTACT US BEGGINS */
 
@@ -452,6 +285,7 @@
   line-height: 28px;
   padding: 8px 30px;
   margin-top: 5px;
+
   /* padding-bottom: 83px; */
   /* justify-content: center; */
 }
@@ -465,3 +299,188 @@
 }
 
 /* SECTION CONTACT US ENDS. */
+
+
+/* TABLET START */
+@media screen and (min-width: 768px) {
+  
+  .section1_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 24px 0px 24px;
+    width: 100%;
+    background-color: #014e56;
+  }
+
+  .section1_title {
+    color: #fff;
+    font-size: 64px;
+    font-weight: 700;
+    font-family: "Livvic";
+    text-align: center;
+    line-height: 56px;
+    font-style: normal;
+    text-align: center;
+  }
+
+  .section1_title-talent {
+    color: #f67e7e;
+  }
+
+  .section1_paragraph {
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 28px;
+    font-weight: 600;
+    font-size: 15px;
+    padding-bottom: 197px;
+    width: 457px;
+    /* padding: 0px 155px 197px 155px; */
+  }
+
+  .bg-pattern-home-2_mobile {
+    position: absolute;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 0px;
+  }
+  .section1_mobile {
+    position: relative;
+  }
+
+  /* CONTACT US BEGINS */
+  #section2HomeMobile {
+    position: relative;
+    background-color: #F67E7E;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+    overflow: hidden;
+
+  }
+
+  #section2HomeMobile p {
+    color: #012F34;
+    font-family: "Livvic";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    padding-top: 100px;
+    margin-left: 50px;
+    white-space: initial;
+    text-align: center;
+  }
+
+  #section2HomeId {
+    color: #012F34;
+    background-color: inherit;
+    border: 2px solid #012F34;
+    border-radius: 24px;
+    text-transform: none;
+    font-family: 'Livvic';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 8px 35px;
+    margin: 90px 98px 0 25px;
+  }
+
+  .section2HomeImg {
+    max-width: 200px;
+    max-width: 200px;
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+  }
+
+  /* CONTACT US ENDS */
+
+  /* Section2 tablet begins */
+  .section2_home {
+    display: block;
+    visibility: visible;
+    overflow: hidden;
+    background-color: #012f34;
+    position: relative;
+    height: 710px;
+    min-width: 600px;
+    z-index: 1;
+  }
+  .section2_home hr {
+    top: 100px;
+    left: 98px;
+    background-color: #f67e7e;
+    border: none;
+    height: 4px;
+    position: absolute;
+    width: 50px;
+  }
+
+  .section2_home .s2img1 {
+    width: 200px;
+    height: 244px;
+    position: absolute;
+    right: -100px;
+  }
+
+  .section2_home h2 {
+    margin-top: 136px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    color: #ffffff;
+    width: 445px;
+    height: 64px;
+    margin-left: 98px;
+  }
+
+  .section2_home article {
+    align-items: center;
+    margin-left: 97px;
+    margin-top: 64px;
+    top: 316px;
+    width: 573px;
+    height: 693px;
+    left: 6.4vw;
+  }
+
+  .section2_home article img {
+    position: absolute;
+    margin-right: 23px;
+    width: 72px;
+    height: 72px;
+  }
+
+  .section2_home article h {
+    margin-left: 95px;
+    margin-top: 0px;
+    font-family: "Livvic";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #f67e7e;
+  }
+
+  .section2_home article p {
+    margin: 16px 0 32px 95px;
+    font-family: "Livvic";
+    height: 50px;
+    width: 478px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    color: #ffffff;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+  }
+  /*section2 tablet end*/
+}
