@@ -170,6 +170,7 @@
     .info-screen {
         background: #002529;
         width: 100%;
+        height: 100%;
         position: absolute;
         top: 0px;
         left: 0px;
@@ -242,19 +243,8 @@
 
 }
 @media only screen and (min-width: 768px){
-    .info-screen {
-        background: #002529;
+    .info-screen{
         width: 100%;
-        position: absolute;
-        top: 0px;
-        left: 0px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 8px;
-        opacity: 0;
-        transition-property: all;
-        transition-timing-function: ease-in-out;
-        transition-duration: 0.5s;
+        height: 100%;
     }
 }
