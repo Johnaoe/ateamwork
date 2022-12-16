@@ -10,7 +10,6 @@ html {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        /* position: absolute; */
         padding-bottom: 83px;
     }
 
@@ -24,8 +23,6 @@ html {
         padding: 83px 24px 0 24px;
         white-space: initial;
         text-align: center;
-
-        /* margin: 83px 24px 24px 0; */
     }
 
     #section2MobileId {
@@ -40,14 +37,12 @@ html {
         line-height: 28px;
         padding: 8px 30px;
         margin-top: 5px;
-        /* padding-bottom: 83px; */
-        /* justify-content: center; */
     }
 
     #section2MobileId:hover {
         background-color: #002529;
         color: #ffffff;
-        border-color: #002529;
+        border-color: #002529;  
     }
 
     .section2Img {
@@ -58,82 +53,79 @@ html {
         bottom: -20px;
     }
 }
+
 /* SECTION NEWSLETTERS SECTION 2 STARTS */
 
+#logosrow {
+    display: flex;
+    flex-direction: column;
+    gap: 56.95px;
+    align-items: center;
+}
+
 #aboutsection2 {
-  background-color: #012f34;
-  position: relative;
-  /* display: flex; */
-  /* flex-direction: column; */
-  align-items: center;
-  justify-content: center;
-  width: 375px;
-  height: 632px;
-  overflow: hidden;
+    background-color: #012f34;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: 632px;
+    overflow: hidden;
+
 }
 
 #patternhome {
-  position: absolute;
-  opacity: 0.53;
-  width: 200px;
-  height: 200px;
-  left: -100px;
-  top: -100px;
+    position: absolute;
+    opacity: 0.53;
+    width: 200px;
+    height: 200px;
+    left: -100px;
+    top: -100px;
 }
 
 #aboutclients {
-  color: white;
-  font-family: "Livvic";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 32px;
-  padding: 88px 24px 0 24px;
-  white-space: initial;
-  text-align: center;
+    color: white;
+    font-family: "Livvic";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    padding: 80px 24px 0 24px;
+    white-space: initial;
+    text-align: center;
+    padding-bottom: 34px;
 }
 
 #theverge {
-  width: 146.56px;
-  height: 24.19px;
-  position: absolute;
-  top: 184px;
-  left: 113.11px;
+    width: 146.56px;
+    height: 24.19px;
+
 }
 
 #jakarta {
-  width: 162.21px;
-  height: 19.92px;
-  position: absolute;
-  top: 265.11px;
-  left: 106px;
+    width: 162.21px;
+    height: 19.92px;
+
 }
 
 #guardian {
-  width: 159.37px;
-  height: 24.19px;
-  position: absolute;
-  top: 341.94px;
-  left: 107.42px;
+    width: 159.37px;
+    height: 24.19px;
+
 }
 
 #techradar {
-  width: 146.56px;
-  height: 24.19px;
-  position: absolute;
-  top: 423.05px;
-  left: 113.11px;
+    width: 146.56px;
+    height: 24.19px;
+
 }
 
 #gadgets {
-  width: 86.8px;
-  height: 39.84px;
-  position: absolute;
-  top: 504.16px;
-  left: 143px;
+    width: 86.8px;
+    height: 39.84px;
 }
 
 /* SECTION NEWSLETTERS SECTION 2 ENDS */
+
 
 /*footer_home mobile start */
 @media only screen and (max-width: 600px) {
@@ -175,56 +167,7 @@ html {
 
 
 
-    /* CONTACT US BEGINS */
-    #section2AboutMobile {
-        position: relative;
-        background-color: #F67E7E;
-        height: 200px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        padding-bottom: 100px;
-        overflow: hidden;
 
-    }
-
-    #section2AboutMobile p {
-        color: #012F34;
-        font-family: "Livvic";
-        font-style: normal;
-        font-weight: 700;
-        font-size: 32px;
-        line-height: 32px;
-        padding-top: 100px;
-        margin-left: 50px;
-        white-space: initial;
-        text-align: center;
-    }
-
-    #section2MobileId {
-        color: #012F34;
-        background-color: inherit;
-        border: 2px solid #012F34;
-        border-radius: 24px;
-        text-transform: none;
-        font-family: 'Livvic';
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 28px;
-        padding: 8px 35px;
-        margin: 90px 98px 0 25px;
-    }
-
-    .section2Img {
-        max-width: 200px;
-        max-width: 200px;
-        position: absolute;
-        left: 0;
-        bottom: -20px;
-    }
-
-    /* CONTACT US ENDS */
 
   footer .footermenu li a:hover {
     color: #f67e7e;
@@ -345,6 +288,7 @@ html {
         flex-basis: 100%;
     }
 
+
     .director {
         width: 281px;
         height: 253px;
@@ -367,6 +311,8 @@ html {
         position: absolute;
         top: 115px;
     }
+
+
 
     .director #director-position {
         color: #FFFFFF;
@@ -422,6 +368,7 @@ html {
         transition-duration: 0.5s;
         transition-timing-function: ease-in-out;
     }
+
 
     .button-rotate {
         transform: rotate(45deg);
@@ -547,7 +494,57 @@ html {
 
 @media only screen and (min-width: 768px) {
 
-    /* cia rasom tablet css */
+    /* CONTACT US BEGINS */
+    #section2AboutMobile {
+        position: relative;
+        background-color: #F67E7E;
+        height: 200px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 100px;
+        overflow: hidden;
+
+    }
+
+    #section2AboutMobile p {
+        color: #012F34;
+        font-family: "Livvic";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 32px;
+        padding-top: 100px;
+        margin-left: 50px;
+        white-space: initial;
+        text-align: center;
+    }
+
+    #section2MobileId {
+        color: #012F34;
+        background-color: inherit;
+        border: 2px solid #012F34;
+        border-radius: 24px;
+        text-transform: none;
+        font-family: 'Livvic';
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+        padding: 8px 35px;
+        margin: 90px 98px 0 25px;
+    }
+
+    .section2Img {
+        max-width: 200px;
+        max-width: 200px;
+        position: absolute;
+        left: 0;
+        bottom: -20px;
+    }
+
+    /* CONTACT US ENDS */
+
     #about-section {
         background: #014E56;
         overflow: hidden;
@@ -704,6 +701,9 @@ html {
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: space-between;
+        padding-bottom: 100px;
+        overflow: hidden;
         gap: 8px;
         opacity: 0;
         transition-property: all;
@@ -745,6 +745,80 @@ html {
         gap: 16px;
     }
 
+
+    /* CONTACT US ENDS */
+
+    /* SECTION NEWSLETTERS SECTION 2 STARTS */
+    #logosrow {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 37px;
+        flex-wrap: wrap;
+        margin-left: 39px;
+        margin-right: 40px;
+        padding-bottom: 1 07px;
+    }
+
+    #aboutsection2 {
+        background-color: #012F34;
+        position: relative;
+        align-items: flex-start;
+        justify-content: center;
+        overflow: hidden;
+        max-height: 308px;
+    }
+
+    #patternhome {
+        /* position: absolute; */
+        opacity: 0.53;
+        width: 200px;
+        height: 200px;
+        left: 0px;
+        top: -118px;
+    }
+
+    #aboutclients {
+        color: white;
+        font-family: "Livvic";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 32px;
+        padding: 80px 156px 0px 155px;
+        white-space: initial;
+        text-align: center;
+    }
+
+    #theverge {
+        width: 103px;
+        height: 17px;
+    }
+
+    #jakarta {
+        width: 114px;
+        height: 14px;
+    }
+
+    #guardian {
+        width: 159.37px;
+        height: 24.19px;
+    }
+
+    #techradar {
+        width: 103px;
+        height: 17px;
+    }
+
+    #gadgets {
+        width: 61px;
+        height: 28px;
+    }
+
+    /* SECTION NEWSLETTERS SECTION 2 ENDS */
+
+}
+
     .info-director-socials img {
         width: 16px;
         gap: 10px;
@@ -758,6 +832,7 @@ html {
         fill: #F67E7E;
         transition-duration: 0.5s;
     }
+
 
     #linkedin-icon {
         fill: #fff;
