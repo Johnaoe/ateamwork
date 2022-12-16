@@ -843,30 +843,4 @@ html {
         transition-duration: 0.5s;
     }
 
-    .row {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        width: 100%;
-        gap: 11px;
-        justify-content: center;
-        padding-bottom: 76px;
-    }
 
-    .column {
-        display: flex;
-        flex-direction: column;
-        flex-basis: 100%;
-        flex: 1;
-    }
-
-    .lastrow {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        width: 100%;
-        gap: 11px;
-        justify-content: center;
-        padding-bottom: 130.3px;
-    }
-}
