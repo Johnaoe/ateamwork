@@ -1,8 +1,12 @@
 @media only screen and (max-width: 767px) {
+  .successStories-section {
+    background: #004047;
+    position: relative;
+  }
+
   .section-successStories-container {
     background: #004047;
     position: relative;
-    height: 1410px;
   }
 
   #home-section3-image1 {
@@ -26,7 +30,7 @@
     font-weight: 700;
     text-align: center;
     padding: 140px 24px 0px 24px;
-    
+
   }
 
   #home-section3-h1 span {
@@ -89,8 +93,8 @@
     margin-right: auto;
   }
 
-  #success-stories-last-avatar {
-    margin-bottom: 164px;
+  .story-container:last-child {
+    padding-bottom: 164px;
   }
 
 }
@@ -100,7 +104,6 @@
   .section-successStories-container {
     background: #004047;
     position: relative;
-    height: 1220px;
   }
 
   #home-section3-image1 {
@@ -124,7 +127,7 @@
     font-weight: 700;
     text-align: center;
     padding: 100px 98px 0px 97px;
-    
+
   }
 
   #home-section3-h1 span {
@@ -187,8 +190,117 @@
     margin-right: auto;
   }
 
-  #success-stories-last-avatar {
-    margin-bottom: 164px;
+  .story-container:last-child {
+    padding-bottom: 100px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .successStories-section {
+    background: #004047;
+    position: relative;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .successStories-section {
+    background: #004047;
+    position: relative;
+    height: 745px;
   }
 
+  .section-successStories-container {
+    background: #004047;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    align-content: center;
+    height: 509px;
+  }
+
+  .story-container {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 75px;
+  }
+
+  .story-container:last-child {
+    padding-bottom: 0;
+  }
+
+  .section-successStories-container .quote {
+    font-family: "Livvic";
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    padding: 50px 0px 24px 0px;
+    z-index: 2;
+    background: url('/assets/images/icons/icon-quotes.svg');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 10px;
+  }
+
+  .success-stories-personName {
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #79C8C7;
+    margin: 0;
+    padding: 0px 0px 0px 2px;
+  }
+
+  .success-stories-profession {
+    font-family: 'Livvic';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 28px;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    padding: 0px 0px 32px 0px;
+  }
+
+  .success-stories-avatar {
+    width: 62px;
+    height: 62px;
+    border: 2px solid #C4FFFE;
+    border-radius: 50%;
+    display: block;
+    margin: 0;
+  }
+
+  #success-stories-last-avatar {
+    margin-bottom: 0;
+  }
+
+  #home-section3-h1 {
+    font-size: 48px;
+    line-height: 48px;
+    font-family: "Livvic";
+    font-weight: 700;
+    text-align: center;
+    padding: 140px 254px 0px 254px;
+
+  }
+
+  #home-section3-h1 span {
+    font-size: 48px;
+    line-height: 48px;
+    font-family: "Livvic";
+    font-weight: 700;
+    color: #79C8C7;
+  }
 }
