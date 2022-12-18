@@ -238,6 +238,11 @@ html {
 @media only screen and (min-width: 768px) {
 
     /* cia rasom tablet css */
+    .director-section {
+        position: relative;
+        background: #004047;
+        z-index: 2
+    }
     #about-section {
         background: #014E56;
         overflow: hidden;
@@ -274,11 +279,17 @@ html {
     .director-list {
         font-family: "Livvic";
         background: #004047;
-        overflow: hidden;
         position: relative;
+        gap: 11px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        z-index: -1;
     }
 
-    .director-list h1 {
+    .director-section h1 {
         height: 32px;
         margin: 0;
         text-align: center;
@@ -298,6 +309,24 @@ html {
         align-items: center;
         flex-direction: column;
         position: relative;
+    }
+    .director:nth-child(1) {
+        margin-bottom: 65px;
+    }
+    .director:nth-child(2) {
+        margin-bottom: 65px;
+    }
+    .director:nth-child(3) {
+        margin-bottom: 65px;
+    }
+    .director:nth-child(4){
+        margin-bottom: 65px;
+    }
+    .director:nth-child(5){
+        margin-bottom: 128px;
+    }
+    .director:nth-child(6){
+        margin-bottom: 128px;
     }
 
     .director #director-name {
@@ -337,7 +366,7 @@ html {
         display: block;
     }
 
-    .director-list #about-img {
+    .director-section #about-img {
         width: 200px;
         position: absolute;
         top: 0px;
