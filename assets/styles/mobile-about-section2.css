@@ -1,17 +1,11 @@
 @media only screen and (max-width:767px) {
-    .row {
-        display: flex;
-        flex-direction: column;
-        gap: 52px;
+    
+    .director-section {
+        position: relative;
+        background: #004047;
+        overflow: hidden;
+        z-index: 1;
     }
-
-    .lastrow {
-        display: flex;
-        flex-direction: column;
-        gap: 52px;
-        padding-bottom: 16px;
-    }
-
     .director-list {
         display: flex;
         flex-direction: column;
@@ -22,16 +16,16 @@
         gap: 52px;
         background: #004047;
         overflow: hidden;
-        height: 2062px;
+        z-index: -1;
     }
 
-    .director-list h1 {
+    .director-section h1 {
         height: 32px;
         margin: 0;
         text-align: center;
         font-size: 32px;
         line-height: 32px;
-        padding: 0px 24px 0px 24px;
+        padding: 88px 24px 0px 24px;
     }
 
     .director {
@@ -43,6 +37,14 @@
         align-items: center;
         flex-direction: column;
         position: relative;
+    }
+
+    .director:first-child {
+        margin-top: 68px;
+    }
+
+    .director:last-of-type {
+        margin-bottom: 116px;
     }
 
     .director #director-name {
@@ -80,7 +82,7 @@
         display: block;
     }
 
-    .director-list #about-img {
+    .director-section #about-img {
         width: 200px;
         position: absolute;
         top: -100px;
