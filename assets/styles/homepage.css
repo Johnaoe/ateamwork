@@ -551,8 +551,11 @@
 }
 
 @media only screen and (max-width: 1439px) {
-  /* This media query is only for hr */
+  /* This media query is for home desktop section1 */
   .section1_wrapper hr {
+    display: none;
+  }
+  .bg-pattern-home-1 {
     display: none;
   }
 }
