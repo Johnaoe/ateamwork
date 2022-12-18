@@ -1,0 +1,317 @@
+@media only screen and (min-width: 1024px) {
+
+    .director-section {
+        position: relative;
+        background: #004047;
+    }
+
+    .director-list {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        font-family: "Livvic";
+        background: #004047;
+        flex-wrap: wrap;
+    }
+
+    .director-section h1 {
+        height: 32px;
+        margin: 0;
+        text-align: center;
+        font-size: 48px;
+        line-height: 48px;
+        padding: 140px 260px 112px 260px;
+    }
+
+    .director {
+        width: 350px;
+        height: 253px;
+        background: #012F34;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .director:nth-child(1) {
+        margin-bottom: 46px;
+    }
+    .director:nth-child(2) {
+        margin-bottom: 46px;
+    }
+    .director:nth-child(3) {
+        margin-bottom: 46px;
+    }
+    .director:nth-child(4){
+        margin-bottom: 168px;
+    }
+    .director:nth-child(5){
+        margin-bottom: 168px;
+    }
+    .director:nth-child(6){
+        margin-bottom: 168px;
+    }
+
+    .director #director-name {
+        color: #79C8C7;
+        width: 279px;
+        height: 28px;
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 700;
+        text-align: center;
+        position: absolute;
+        top: 115px;
+    }
+
+    .director #director-position {
+        color: #FFFFFF;
+        width: 279px;
+        height: 25px;
+        font-weight: 500;
+        font-style: italic;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        position: absolute;
+        top: 150px;
+    }
+
+    .director #director-avatar {
+        width: 96px;
+        height: 96px;
+        border: 2px solid #C4FFFE;
+        border-radius: 50%;
+        position: absolute;
+        top: 32px;
+        display: block;
+    }
+
+    .director-section #about-img {
+        width: 200px;
+        position: absolute;
+        top: 0;
+        left: -100px;
+    }
+
+    .director-list #about-last-img {
+        width: 150px;
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+    }
+
+    .about-section {
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+        padding-bottom: 80px;
+        background: #014E56;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .about-section p {
+        color: white;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 26px;
+        padding-left: 24px;
+        padding-right: 24px;
+        text-align: center;
+    }
+
+    .about-section h1 {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 40px;
+        text-align: center;
+    }
+
+
+    .about-section img {
+        width: 200px;
+        position: absolute;
+        bottom: -100px;
+        right: -100px;
+    }
+
+    .director-oval {
+        position: absolute;
+        width: 56px;
+        height: 56px;
+        left: calc(50% - 56px/2 + 0.5px);
+        top: calc(50% - 56px/2 + 112.5px);
+        background: #F67E7E;
+        border-radius: 50%;
+        z-index: 2;
+    }
+
+    .director-oval:hover {
+        background: #79C8C7;
+        transition-property: all;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in-out;
+    }
+
+    .button-rotate {
+        transform: rotate(45deg);
+        transition-property: all;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in-out;
+        background: #79C8C7;
+    }
+
+    .button-rotate:hover {
+        background: #F67E7E;
+    }
+
+    #cross-icon {
+        width: 16px;
+        height: 16px;
+        position: absolute;
+        left: 20px;
+        top: 19px;
+    }
+
+    .info-screen {
+        background: #002529;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+        opacity: 0;
+        transition-property: all;
+        transition-timing-function: ease-in-out;
+        transition-duration: 0.5s;
+    }
+
+    .show-content {
+        opacity: 100%;
+        transition-property: all;
+        transition-timing-function: ease-in-out;
+        transition-duration: 0.5s;
+    }
+
+    .info-director-name {
+        font-size: 18px;
+        color: #79C8C7;
+        line-height: 28px;
+        width: 279px;
+        height: 28px;
+        font-family: "Livvic";
+        font-weight: 700;
+        text-align: center;
+        margin-top: 35px;
+    }
+
+    .info-director-quote {
+        font-family: "Livvic";
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: #fff;
+        margin: 0;
+    }
+
+    .info-director-socials {
+        display: flex;
+        gap: 16px;
+    }
+
+    .info-director-socials img {
+        width: 16px;
+        gap: 10px;
+    }
+
+    #twitter-icon {
+        fill: #fff;
+    }
+
+    #twitter-icon:hover {
+        fill: #F67E7E;
+        transition-duration: 0.5s;
+    }
+
+    #linkedin-icon {
+        fill: #fff;
+    }
+
+    #linkedin-icon:hover {
+        fill: #F67E7E;
+        transition-duration: 0.5s;
+    }
+
+    #about-section {
+        background: #014E56;
+        overflow: hidden;
+        width: 100%;
+        position: relative;
+        display: inline-block;
+        display: flex;
+        flex-direction: row;
+        gap: 191px;
+        padding: 0;
+    }
+
+    .about-section #about-section-img {
+        width: 200px;
+        position: absolute;
+        right: -100px;
+        bottom: 0;
+
+    }
+
+    .about-section p {
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 28px;
+        text-align: left;
+        padding: 40px 165px 120px 0px;
+        position: relative;
+    }
+
+    .about-section hr {
+        width: 50px;
+        height: 4px;
+        background-color: #F67E7E;
+        margin-top: 56px;
+    }
+
+    .about-section #about-section-h1 {
+        font-size: 64px;
+        line-height: 100px;
+        font-weight: 700;
+        text-align: left;
+        padding: 56px 0px 176px 165px;
+
+        /* position: absolute;
+        top: 0; */
+    }
+
+    .row {
+        padding: 0;
+    }
+
+    .lastrow {
+        padding: 0;
+    }
+
+}
+
+@media only screen and (max-width: 1023px) {
+    .about-section hr {
+        display: none;
+    }
+}
