@@ -815,7 +815,7 @@ html {
         width: 200px;
         height: 200px;
         left: 0px;
-        top: -118px;
+        top: -100px;
     }
 
     #aboutclients {
@@ -945,8 +945,8 @@ html {
         gap: 80px;
         flex-wrap: wrap;
         margin-top: 50px;
-        margin-left: 165px;
-        margin-right: 165px;
+        margin-left: 162px;
+        margin-right: 162px;
     }
 
     #aboutsection2 {
