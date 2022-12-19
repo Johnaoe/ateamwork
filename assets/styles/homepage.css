@@ -495,11 +495,12 @@
   #section2HomeMobile {
     position: relative;
     background-color: #F67E7E;
+    height: 200px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding-bottom: 83px;
+    padding-bottom: 100px;
     overflow: hidden;
 
   }
