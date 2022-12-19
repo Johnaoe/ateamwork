@@ -407,4 +407,97 @@ header .side_menu__container {
   header .ham-menu-icon {
     visibility: hidden;
   }
+  /*footer desktop start*/
+  footer {
+    height: 196px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-content: space-between;
+    justify-content: center;
+    align-items: center;
+    background: #002529;
+  }
+  footer .footerlogo {
+    display: flex;
+    justify-content: flex-start;
+    margin: 48px 0 0 165px;
+    cursor: pointer;
+    height: 40.83px;
+    width: 160px;
+  }
+  footer .footermenu {
+    
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    list-style: none;
+    display: flex;
+    margin: 24.37px 0 40px 165px;
+    gap: 30px;
+    list-style-type: none;
+    text-decoration: none;
+    order: 0;
+  }
+  footer .footermenu li a:hover {
+    color: #f67e7e;
+  }
+  
+  footer .footericons {
+    margin-right: auto;
+    justify-content: flex-end;
+    background: none;
+    flex-direction: row;
+    list-style: none;
+    flex-wrap: wrap;
+    list-style-type: none;
+    text-decoration: none;
+    order: 1;
+   margin: 0 48px 0 0;
+    height: 24px;
+  
+    
+  }
+  footer .footericons li:last-child {
+    margin-top: 2.25px;
+  }
+
+  footer .footericons svg path:hover {
+    fill: #f67e7e;
+  }
+
+  footer .address {
+    height: 100px;
+    width: 445px;
+    margin: 48px 0 48px 124px;
+    text-align: start;
+    font-family: "Livvic";
+    font-style: normal;
+    order: 0;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    color: #ffffff;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+
+  }
+
+  footer p {
+    order: 2;
+    width: 255px;
+    height: 25px;
+    margin: 51px 165px 0 0px;
+    font-family: "Livvic";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    color: #ffffff;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+  }
+  /*footer desktop end*/
 }

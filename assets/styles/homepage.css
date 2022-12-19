@@ -485,9 +485,7 @@
 
   /*section2 tablet end*/
 }
-
-/* DESKTOP START */
-@media only screen and (max-width: 1439px) {
+@media only screen and (min-width: 992px) {
   /* This media query is for home desktop section1 */
   .section1_wrapper hr {
     display: none;
