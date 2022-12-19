@@ -25,7 +25,6 @@
   .section1_title-talent {
     color: #f67e7e;
   }
-
   .section1_paragraph {
     color: #fff;
     justify-content: center;
@@ -328,7 +327,6 @@
   .section1_title-talent {
     color: #f67e7e;
   }
-
   .section1_paragraph {
     color: #fff;
     justify-content: center;
@@ -487,19 +485,92 @@
 
   /*section2 tablet end*/
 }
-
 @media only screen and (min-width: 992px) {
+  /* This media query is for home desktop section1 */
+  .section1_wrapper hr {
+    display: none;
+  }
+  .bg-pattern-home-1 {
+    display: none;
+  }
+ }
+@media only screen and (min-width: 1440px) {
+  .section1_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 65px 165px 250px 165px;
+    gap: 30px;
+    /* width: 1110px; */
+    height: 515px;
+    background-color: #014e56;
+    position: relative;
+  }
+  .section1_title {
+    color: #fff;
+    width: 623px;
+    font-size: 100px;
+    font-weight: 700;
+    font-family: "Livvic";
+    text-align: start;
+    line-height: 100px;
+    font-style: normal;
+  }
+  .section1_title-talent {
+    color: #f67e7e;
+  }
+  .section1_wrapper hr {
+    border: 0;
+    height: 4px;
+    background-color: #79C8C7;
+    width: 50px;
+    position: absolute;
+    top: 65px;
+    left: 825px;
+  }
+
+  .section1_paragraph {
+    color: #fff;
+    text-align: start;
+    line-height: 28px;
+    font-weight: 600;
+    font-size: 18px;
+    padding-bottom: 0px;
+    width: 445px;
+    height: 112px;
+  }
+  .section1_paragraph-div {
+    width: 445px;
+    height: 112px;
+    display: flex;
+    align-items: flex-end;
+  }
+  .bg-pattern-home-2_mobile {
+    position: absolute;
+    bottom: 0px;
+    left: 1082px;
+  }
+  .bg-pattern-home-1 {
+    position: absolute;
+    left: -100px;
+    top: 65px;
+  }
+  .section1_mobile {
+    position: relative;
+  }
 
   /* SECTION CONTACT US BEGGINS */
 
   #section2HomeMobile {
     position: relative;
     background-color: #F67E7E;
+    height: 200px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding-bottom: 83px;
+    padding-bottom: 100px;
     overflow: hidden;
 
   }
@@ -537,7 +608,5 @@
     left: 0;
     bottom: -20px;
   }
-
   /* SECTION CONTACT US ENDS. */
-
 }
