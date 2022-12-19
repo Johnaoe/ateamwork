@@ -611,4 +611,84 @@
     bottom: -20px;
   }
   /* SECTION CONTACT US ENDS. */
+  /*section2 desktop begins*/
+  .section2_home {
+    display: flex;
+    flex-direction: row;
+   position: relative;
+    overflow: hidden;
+    background-color: #012f34;
+    align-items: flex-end;
+    height: 684px;
+    z-index: 1;
+  }
+  .section2_home hr {
+    text-align: start;
+    top: 140px;
+    left: 165px;
+    background-color: #f67e7e;
+    border: none;
+    height: 4px;
+    position: absolute;
+    width: 50px;
+  }
+
+  .section2_home .s2img1 {
+    width: 200px;
+    height: 244px;
+    position: absolute;
+    right: -100px;
+  }
+
+  .section2_home h2 {
+    font-weight: 700;
+font-size: 48px;
+line-height: 48px;
+    text-align: start;
+    font-style: normal;
+    color: #ffffff;
+    width: 445px;
+    height: 144px;
+    margin: 198px 0px 342px 165px;
+    
+  }
+
+  .section2_home article {
+  margin: 198px 165px 140px;
+    align-items: flex-end;
+    width: 540px;
+    height: 346px;
+
+  }
+
+  .section2_home article img {
+    position: absolute;
+    margin-right: 23px;
+    width: 72px;
+    height: 72px;
+  }
+
+  .section2_home article h {
+    margin-left: 95px;
+    margin-top: 0px;
+    font-family: "Livvic";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #f67e7e;
+  }
+
+  .section2_home article p {
+    margin: 16px 0 32px 95px;
+    font-family: "Livvic";
+    height: 50px;
+    width: 478px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    color: #ffffff;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+  }
+  /*section2 desktop ends*/
 }
