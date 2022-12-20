@@ -51,7 +51,7 @@
     margin: 0;
     padding: 84px 24px 0px 24px;
     z-index: 2;
-    background: url('/assets/images/icons/icon-quotes.svg');
+    background: url('../images/icons/icon-quotes.svg');
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: 47px;
@@ -148,7 +148,7 @@
     margin: 0;
     padding: 84px 96px 0px 97px;
     z-index: 2;
-    background: url('/assets/images/icons/icon-quotes.svg');
+    background: url('../images/icons/icon-quotes.svg');
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: 47px;
@@ -243,7 +243,7 @@
     margin: 0;
     padding: 50px 0px 24px 0px;
     z-index: 2;
-    background: url('/assets/images/icons/icon-quotes.svg');
+    background: url('../images/icons/icon-quotes.svg');
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: 10px;
